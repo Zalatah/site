@@ -1558,47 +1558,6 @@
                 <span>${cat.category[lang]}</span>
               </a>`
             ).join('');
-            
-            // Add event listeners to category navigation items
-            setTimeout(() => {
-              const categoryItems = document.querySelectorAll('.cat-list-item');
-              categoryItems.forEach(item => {
-                item.addEventListener('click', function(e) {
-                  // Remove active class from all items
-                  categoryItems.forEach(i => i.classList.remove('active'));
-                  // Add active class to clicked item
-                  this.classList.add('active');
-                  
-                  // Scroll the navigation to center the active item
-                  scrollNavToActive();
-                });
-              });
-              
-              // Initial scroll to active item
-              scrollNavToActive();
-              
-              // Function to scroll navigation to center the active item
-              function scrollNavToActive() {
-                const activeItem = document.querySelector('.cat-list-item.active');
-                if (activeItem && nav) {
-                  const navWidth = nav.offsetWidth;
-                  const itemLeft = activeItem.offsetLeft;
-                  const itemWidth = activeItem.offsetWidth;
-                  
-                  // Calculate position to center the item
-                  const scrollPosition = itemLeft - (navWidth / 2) + (itemWidth / 2);
-                  
-                  // Smooth scroll to the position
-                  nav.scrollTo({
-                    left: scrollPosition,
-                    behavior: 'smooth'
-                  });
-                }
-              }
-              
-              // Handle window resize to maintain proper scrolling
-              window.addEventListener('resize', scrollNavToActive);
-            }, 500); // Short delay to ensure DOM is ready
             // Render category sections
             const catsContainer = document.getElementById('categories-container');
             catsContainer.innerHTML = menu.map((cat, i) =>
@@ -1609,6 +1568,60 @@
                </div>
               </div>`
             ).join('');
+            // Add Intersection Observer to handle active states and scroll
+            const nav = document.getElementById('cats-nav');
+            const navItems = nav.querySelectorAll('.cat-list-item');
+            const categorySections = document.querySelectorAll('.category-item-wrap');
+            
+            // Function to update active nav item
+            function updateActiveNavItem(activeId) {
+              navItems.forEach(item => {
+                const itemId = item.getAttribute('data-id');
+                if (itemId === activeId) {
+                  item.classList.add('active');
+                  // Scroll the nav to center the active item
+                  const navWidth = nav.offsetWidth;
+                  const itemLeft = item.offsetLeft;
+                  const itemWidth = item.offsetWidth;
+                  const scrollPosition = itemLeft - (navWidth / 2) + (itemWidth / 2);
+                  
+                  nav.scrollTo({
+                    left: scrollPosition,
+                    behavior: 'smooth'
+                  });
+                } else {
+                  item.classList.remove('active');
+                }
+              });
+            }
+            
+            // Set up Intersection Observer
+            const observerOptions = {
+              root: null,
+              rootMargin: '0px',
+              threshold: 0.5 // Trigger when 50% of the section is visible
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  const activeId = entry.target.getAttribute('data-id');
+                  updateActiveNavItem(activeId);
+                }
+              });
+            }, observerOptions);
+            
+            // Observe each category section
+            categorySections.forEach(section => {
+              observer.observe(section);
+            });
+            
+            // Set initial active item
+            if (navItems.length > 0) {
+              const firstItemId = navItems[0].getAttribute('data-id');
+              updateActiveNavItem(firstItemId);
+            }
+            
             // Debug: Log all categories and their IDs
             console.log('=== MENU DEBUGGING ===');
             console.log('Total categories:', menu.length);
