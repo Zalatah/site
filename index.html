@@ -1,0 +1,1656 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+   <head>
+      <style>
+        /* Global RTL support */
+        html, body {
+          direction: rtl !important;
+          text-align: right !important;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        /* Logical properties for RTL */
+        .product-item, .product-items-wrap, .category-title, .info, .product-title-wrapper {
+          text-align: right !important;
+        }
+        /* Example: Replace margin-left with margin-right for RTL */
+        [style*="margin-left"] {
+          margin-right: var(--margin-left, 0) !important;
+          margin-left: 0 !important;
+        }
+        [style*="padding-left"] {
+          padding-right: var(--padding-left, 0) !important;
+          padding-left: 0 !important;
+        }
+        /* Example: float */
+        [style*="float: left"] {
+          float: right !important;
+        }
+        /* Flip flex row direction for RTL */
+        .d-flex, .flex-row {
+          flex-direction: row-reverse !important;
+        }
+        /* Make sure price and icons align right */
+        .product-title-wrapper, .product-item span, .product-item i {
+          text-align: right !important;
+        }
+      </style>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Zalatah - زلطه</title>
+      <meta name="description" content="Amazing Chicken, an unmatched taste 🍗">
+      <meta property="og:title" content="Zalatah - زلطه" />
+      <meta property="og:url" content="https://menux.app/super-chicken/"/>
+      <meta property="og:description" content="Amazing Chicken, an unmatched taste 🍗"/>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+      <link href="https://menux.app/wp-content/themes/menux/css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css">
+      <link href="https://menux.app/wp-content/cache/autoptimize/css/autoptimize_single_d71e93ac3e29c50d70af46941520770d.css" rel="stylesheet" type="text/css">
+      <link href="https://menux.app/wp-content/cache/autoptimize/css/autoptimize_single_aaa0726c85ed3086bf26197078cc4050.css" rel="stylesheet" type="text/css">
+      <link href="https://menux.app/wp-content/cache/autoptimize/css/autoptimize_single_a1fa6a6bd99d73a32cd61869eac1220c.css?654123" rel="stylesheet" type="text/css">
+      <link href="https://menux.app/wp-content/cache/autoptimize/css/autoptimize_single_ee96e49b590d8cf389d2b2ed473fa3ff.css?2256" rel="stylesheet" type="text/css">
+      <style>:root {
+         --main: #e60040;
+         --main_opacity: 230,0,64;
+         }
+         @font-face {
+         font-family: 'saudi-riyal-font';
+         src: url('https://menux.app/wp-content/themes/menux/fonts/saudi-riyal-font.eot?qlzodd');
+         src: url('https://menux.app/wp-content/themes/menux/fonts/saudi-riyal-font.eot?qlzodd#iefix') format('embedded-opentype'),
+         url('https://menux.app/wp-content/themes/menux/fonts/saudi-riyal-font.ttf?qlzodd') format('truetype'),
+         url('https://menux.app/wp-content/themes/menux/fonts/saudi-riyal-font.woff?qlzodd') format('woff'),
+         url('https://menux.app/wp-content/themes/menux/fonts/saudi-riyal-font.svg?qlzodd#saudi-riyal-font') format('svg');
+         font-weight: normal;
+         font-style: normal;
+         font-display: swap;
+         }
+         .sar_currency {
+         margin: 0 !important;
+         font-family: 'saudi-riyal-font' !important;
+         speak: never;
+         font-style: normal;
+         font-weight: normal;
+         font-variant: normal;
+         text-transform: none;
+         line-height: 1;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         }
+         .product-item a span {
+         display: inline-block !important;
+         }
+         .lang-select .lang-dropdown a img, .lang-select .lang-toggle img {
+         border-radius: 4px;
+         }
+      </style>
+      <link href="https://menux.app/wp-content/cache/autoptimize/css/autoptimize_single_a1fa6a6bd99d73a32cd61869eac1220c.css?654123" rel="stylesheet" type="text/css">
+      <link href="https://menux.app/wp-content/cache/autoptimize/css/autoptimize_single_ee96e49b590d8cf389d2b2ed473fa3ff.css?2256" rel="stylesheet" type="text/css">
+      <style>.product-images .slick-list, .product-images .slick-track, .product-images .p-img-item, .product-images .p-img-item img {
+         height: 100% !important;
+         max-height: 100%;
+         }
+         .google_review_wrap {
+         height: 80px;
+         width: calc(768px - 32px);
+         margin: 0 auto;
+         max-width: calc(100% - 32px);
+         padding: 16px;
+         background: #FFFFFF;
+         border-radius: 16px;
+         margin-top: 16px;
+         display: flex;
+         align-items: center;
+         color: #000000 !important;!i;!;
+         font-size: 14px;
+         font-weight: 600;
+         }
+         .google_review_wrap img {
+         flex: 0 0 auto;
+         margin-left: auto;
+         }
+         .google_review_wrap .text {
+         display: inline-flex;
+         flex-direction: column;
+         gap: 8px;
+         }
+         .cart_delivery_item {
+         display: flex;
+         align-items: center;
+         font-size: 14px;
+         font-weight: 700;
+         color: #000;
+         padding-bottom: 12px;
+         margin-bottom: 12px;
+         border-bottom: 1px solid #E5E5E5;
+         }
+         .cart_delivery_item b {
+         margin-left: auto;
+         color: var(--main);
+         }
+         .cart_delivery_item b i {
+         font-style: normal;
+         }
+         .cart_delivery_item:last-child {
+         border: none;
+         padding=b: 0;
+         padding-bottom: 4px;
+         }
+         .order-details-wrapper.items .cart_delivery_item:last-child {
+         padding-bottom: 12px;
+         border-bottom: 1px solid #E5E5E5;
+         }
+         .product-items-wrap.grid .product-item img {
+         height: 215px;
+         }
+         .resto__cover img , .about-img-wrap img{
+         width: 100%;
+         height: 100% !important;
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         object-fit: cover;
+         object-position: center;
+         border-radius:16px;
+         }
+         .resto__cover , .about-img-wrap{
+         height: 0;
+         padding-bottom: 46%;
+         position: relative;
+         }
+         .menu_toggle{
+         display:none;
+         }
+         .cart-empty-wrap {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         }
+         .cart-empty-wrap svg {
+         margin-bottom: 16px;
+         }
+         .cart-empty-wrap .cart-empty-text {
+         text-align: center;
+         color: #666666;
+         font-weight: 600;
+         }
+         .cart-empty-wrap .t {
+         color: #000;
+         font-weight: 700;
+         margin-bottom: 6px;
+         }
+         .cart-empty-wrap a {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         height: 40px;
+         padding: 0 16px;
+         border-radius: 10px;
+         background: var(--main);
+         color: #fff !important;
+         font-size: 16px;
+         font-weight: 700;
+         }
+         .cart-empty-wrap .s {
+         margin-bottom: 24px;
+         }
+         .form-input.error {
+         border-color: #FF3636;
+         }
+         .pickup_branch_info {
+         display: flex;
+         align-items: center;
+         font-size: 14px;
+         font-weight: 700;
+         }
+         .pickup_branch_info a {
+         margin-left: auto;
+         text-decoration: underline !important;
+         }
+         .product-title-wrapper {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         }
+         .toast_msg.active {
+         z-index: 9999999999999 !important;
+         }
+         .toast_msg {
+         margin: 0 !important;
+         }
+         .product-title-wrapper .cart-item-quantity {
+         display: inline-flex;
+         align-items: center;
+         font-size: 14px;
+         font-weight: 700;
+         color: #000;
+         margin-bottom: 6px;
+         gap: 4px;
+         }
+         .product-title-wrapper .cart-item-quantity i {
+         width: 20px;
+         height: 20px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         font-style: normal;
+         border-radius: 100%;
+         background: #000;
+         color: #fff;
+         font-size: 12px;
+         font-weight: 500;
+         }
+         .page-wrapper.order {
+         padding-bottom: 80px;
+         }
+         .menu-complete-order-wrap .info {
+         display: inline-flex;
+         align-items: center;
+         gap: 12px;
+         }
+         .menu-complete-order-wrap .info .icon {
+         width: 40px;
+         height: 40px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 10px;
+         background: rgba(var(--main_opacity),.1);
+         }
+         .menu-complete-order-wrap .info .icon path {
+         fill: var(--main);
+         }
+         .menu-complete-order-wrap .info .text {
+         display: inline-flex;
+         flex-direction: column;
+         font-size: 14px;
+         font-weight: 700;
+         color: #000000;
+         }
+         .menu-complete-order-wrap .info .text i {
+         font-style: normal;
+         }
+         .menu-complete-order-wrap .info .text b {
+         color: #666666;
+         font-size: 12px;
+         font-weight: 500;
+         }
+         .menu-complete-order-wrap .complete-order {
+         margin-left: auto;
+         height: 40px;
+         background: #008069;
+         border-radius: 10px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 8px;
+         padding: 0 12px;
+         color: #fff !important;!i;!;
+         font-size: 16px;
+         font-weight: 700;
+         }
+         .add-cart-wrapper, .menu-complete-order-wrap, .popup-oder-btn-wrap {
+         position: fixed;
+         bottom: 16px;
+         right: 50%;
+         transform: translateX(50%);
+         width: 736px;
+         max-width: calc(100% - 32px);
+         display: flex;
+         align-items: center;
+         background: #FFFFFF;
+         padding: 10px;
+         border: 1px solid #ECECEC;
+         border-radius: 12px;
+         box-shadow: 0 0 15px rgba(0,0,0,0.15);
+         z-index: 99999;
+         }
+         .popup-oder-btn-wrap a {
+         display: flex;
+         width: 100%;
+         height: 40px;
+         align-items: center;
+         color: #fff;
+         font-size: 16px;
+         font-weight: 700;
+         justify-content: center;
+         background: var(--main);
+         border-radius: 10px;
+         padding:0 16px;
+         }
+         .popup-oder-btn-wrap a.complete_order {
+         justify-content: flex-start;
+         }
+         .popup-oder-btn-wrap a.complete_order b {
+         margin-left: auto;
+         font-size: 14px;
+         font-weight: 500;
+         }
+         .popup-oder-btn-wrap a.complete_order b i {
+         font-style: normal;
+         }
+         .menu-complete-order-wrap {
+         cursor:pointer;
+         z-index: 99;
+         }
+         .product-popup.order .popup-wrapper {
+         padding-bottom: 80px;
+         }
+         .add-cart-wrapper .quantity {
+         display: inline-flex;
+         align-items: center;
+         }
+         .add-cart-wrapper .quantity input {
+         background: none;
+         border: none;
+         outline: none;
+         font-size: 16px;
+         font-weight: 600;
+         color: #000;
+         width: 24px;
+         padding: 0;
+         -moz-appearance: textfield;
+         text-align: center;
+         margin: 0 8px;
+         }
+         .add-cart-wrapper .quantity input::-webkit-outer-spin-button,
+         .add-cart-wrapper .quantity input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+         }
+         .add-cart-wrapper .quantity a {
+         width: 24px;
+         height: 24px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 4px;
+         background: rgba(0,0,0,0.4);
+         }
+         .add-cart-wrapper .add-cart {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: auto;
+         height: 40px;
+         border-radius: 10px;
+         padding: 0 16px;
+         gap: 20px;
+         color: #fff !important;!i;!;
+         font-size: 16px;
+         font-weight: 700;
+         background: var(--main);
+         }
+         .add-cart-wrapper .add-cart b {
+         font-size: 12px;
+         }
+         .add-cart-wrapper .add-cart i {
+         font-style: normal;
+         }
+         .selet-order-type-popup {
+         align-items: flex-end !important;
+         }
+         .selet-order-type-popup .popup-wrapper {
+         border-radius: 16px 16px 0 0 !important;
+         }
+         .order_type_item {
+         display: flex;
+         cursor: pointer;
+         align-items: center;
+         gap: 12px;
+         color: #000;
+         font-size: 14px;
+         font-weight: 700;
+         padding-bottom: 12px;
+         margin-bottom: 12px;
+         border-bottom: 1px solid #ECECEC;
+         position: relative;
+         }
+         .order_type_item:last-child {
+         border: none;
+         margin: 0;
+         }
+         .order_type_item .check {
+         position: absolute;
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         opacity: 0;
+         visibility: hidden;
+         transition: all 0.3s;
+         }
+         .order_type_item.active .check {
+         opacity: 1;
+         visibility: visible;
+         }
+         label.input__toggle {
+         position: relative;
+         display: flex;
+         width: 100%;
+         }
+         .checkbox__item_wrap {
+         display: flex;
+         width: 100%;
+         align-items:center;
+         position:relative;
+         z-index:99;
+         }
+         .checkbox__item_wrap label{
+         position:relative;
+         display: flex;
+         width: 100%;
+         align-items:center;
+         }
+         .checkbox__item_wrap input {
+         position: absolute;
+         width:100%;
+         height:100%;
+         top: 0;
+         right: 0;
+         left: 0;
+         bottom: 0;
+         cursor: pointer;
+         opacity: 0;
+         z-index:999;
+         }
+         .checkbox__item_wrap.radio label:before {
+         content: '';
+         width: 24px;
+         height: 24px;
+         border-radius: 100%;
+         border: 1px solid #ccc !important;
+         margin-right: 12px;
+         background:#fff !important;
+         }
+         .checkbox__item_wrap.radio label:after {
+         content: '';
+         position: absolute;
+         top: 5px;
+         left: 5px;
+         width: 14px;
+         height: 14px;
+         border-radius: 100%;
+         background:var(--main);
+         opacity:0;
+         transition:all 0.3s;
+         }
+         .checkbox__item_wrap.radio input:checked + label:after {
+         opacity:1;
+         }
+         .checkbox__item_wrap label:before {
+         content: '';
+         height: 24px;
+         width: 24px;
+         margin-right: 12px;
+         border-radius: 6px;
+         border: 1px solid #CCCCCC;
+         transition: all 0.3s;
+         background:#fff;
+         }
+         .checkbox__item_wrap label svg {
+         position: absolute;
+         left: 6.4px;
+         top: 7.9px;
+         z-index: 1;
+         opacity: 0;
+         transition: all 0.3s;
+         }
+         .checkbox__item_wrap input:checked + label:before {
+         background:var(--main);
+         border-color:var(--main);
+         }
+         .checkbox__item_wrap input:checked + label svg {
+         opacity:1;
+         }
+         .product-info {
+         margin-bottom: 40px;
+         }
+         .product-popup .product-choices.error .sec-title {
+         color: #FF3636;
+         }
+         .product-popup .product-choices.error .checkbox__item_wrap label:before {
+         border-color: rgba(255, 54, 54, 0.8) !important;
+         }
+         .order-popup .popup-wrapper {
+         height: 100vh;
+         max-height: 100vh;
+         border-radius: 0;
+         padding-bottom:80px;
+         }
+         .order-popup .popup-wrapper .popup-head {
+         padding: 24px;
+         margin: -24px -24px 0;
+         background: #F6F6F6;
+         position: relative;
+         padding-bottom: 48px;
+         }
+         .order-popup .popup-wrapper .popup-head:before {
+         content: '';
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         left: 0;
+         height: 24px;
+         border-radius: 24px 24px 0 0;
+         z-index: 9;
+         background: #fff;
+         }
+         .cart-info-wrapper .cart-item {
+         display: flex;
+         align-items: flex-start;
+         gap: 12px;
+         padding-right: 24px;
+         position: relative;
+         padding-bottom: 16px;
+         margin-bottom: 16px;
+         border-bottom: 1px solid #ECECEC;
+         }
+         .cart-info-wrapper .cart-item img {
+         width: 86px;
+         height: 71px;
+         object-fit: cover;
+         object-position: center;
+         border: 1px solid #ECECEC;
+         border-radius: 8px;
+         }
+         .cart-info-wrapper .cart-item .delete-item {
+         position: absolute;
+         right: 0;
+         top: 0;
+         cursor: pointer;
+         }
+         .cart-info-wrapper .cart-item .info {
+         display: inline-flex;
+         flex-direction: column;
+         }
+         .cart-info-wrapper .cart-item .info h4 {
+         font-size: 16px;
+         font-weight: 700;
+         color: #000;
+         padding: 0;
+         margin: 0 0 4px;
+         }
+         .cart-info-wrapper .cart-item .info .price {
+         font-size: 14px;
+         font-weight: 600;
+         color: var(--main);
+         }
+         .cart-info-wrapper .cart-item .info .extras {
+         font-size: 12px;
+         font-weight: 500;
+         color: #666666;
+         }
+         .cart-info-wrapper .cart-item .quantity {
+         display: inline-flex;
+         align-items: center;
+         margin-top:8px;
+         }
+         .cart-info-wrapper .cart-item .quantity input {
+         background: none;
+         border: none;
+         outline: none;
+         font-size: 16px;
+         font-weight: 600;
+         color: #000;
+         width: 40px;
+         padding: 0;
+         -moz-appearance: textfield;
+         text-align: center;
+         margin: 0 8px;
+         }
+         .cart-info-wrapper .cart-item .quantity input::-webkit-outer-spin-button,
+         .cart-info-wrapper .cart-item .quantity input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+         }
+         .cart-info-wrapper .cart-item .quantity div {
+         width: 24px;
+         height: 24px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 4px;
+         background: rgba(0,0,0,0.4);
+         cursor:pointer;
+         }
+         .custom-popup-item {
+         position: fixed;
+         transition: all .3s;
+         top: 0;
+         right: 0;
+         left: 0;
+         bottom: 0;
+         background: rgba(0, 0, 0, .3);
+         z-index: -100;
+         opacity: 0;
+         visibility: hidden;
+         display: flex;
+         align-items: flex-start;
+         }
+         .custom-popup-item.active {
+         z-index: 9999;
+         opacity: 1;
+         visibility: visible;
+         }
+         .custom-popup-item .popup-wrapper {
+         background: #fff;
+         border-radius:0;
+         padding: 24px;
+         width: 100%;
+         max-height: 100vh;
+         height:100vh;
+         overflow-y: auto;
+         width: 768px;
+         margin: 0 auto;
+         max-width:100%;
+         }
+         .custom-popup-item .popup-head{
+         margin-bottom: 24px;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         align-items: center;
+         color: #000;
+         font-size: 18px;
+         font-weight: 700;
+         gap:16px;
+         }
+         .go-menu {
+         position: fixed;
+         bottom: 0;
+         right: 50%;
+         transform: translateX(50%);
+         width: 768px;
+         max-width: 100%;
+         background: #fff;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 18px 0;
+         }
+         .go-menu a {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         height: 40px;
+         padding: 0 12px;
+         border-radius: 50px;
+         border: 1px solid #CCCCCC;
+         gap: 8px;
+         font-size: 16px;
+         font-weight: 700;
+         color: #000;
+         box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+         transition: all 0.3s;
+         }
+         .logo-container {
+          max-width: 300px; /* Adjust size as needed */
+          margin: 0 auto 20px;
+          padding: 15px;
+          border: 2px solid #e0e0e0;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: white;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* Style for the logo div */
+        .logo {
+          padding: 10px;
+          background: white;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid #e0e0e0;
+          margin-bottom: 10px;
+        }
+        
+        /* Style for the logo image */
+        .logo img {
+          max-width: 85%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+         .order-step .go-menu {
+         background: none;
+         }
+         .order-step .go-menu a {
+         background: #fff !important;!i;!;
+         }
+         .go-menu a svg, .order-step .close-popup svg, .order-step .back-cart svg{
+         transform: rotate(180deg);
+         }
+         .order-success-wrap {
+         padding: 0 18px 34px;
+         background: var(--main);
+         border-radius: 16px;
+         margin-bottom: 24px;
+         color: #fff !important;!i;!;
+         text-align: center;
+         }
+         .order-success-wrap img {
+         width: 100%;
+         height: 150px;
+         object-fit: cover;
+         margin-bottom: 20px;
+         }
+         .order-success-wrap svg {
+         margin-bottom: 12px;
+         }
+         .order-success-wrap .text {
+         font-size: 24px;
+         font-weight: 700;
+         margin-bottom: 12px;
+         }
+         .order-success-wrap .text b {
+         display: block;
+         text-align: center;
+         margin-bottom: 8px;
+         }
+         .order-success-wrap .order_id {
+         font-size: 14px;
+         font-weight: 500;
+         }
+         .order-step.step3 {padding-bottom: 44px;}
+         .order-details-group {
+         margin-bottom: 24px;
+         }
+         .order-details-group .sec-title {
+         font-weight: 700;
+         margin-bottom: 8px;
+         }
+         .order-details-wrapper {
+         padding: 16px 12px;
+         background: #F6F6F6;
+         border-radius: 8px;
+         border: 1px solid #E5E5E5;
+         }
+         .order-info-item {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         padding-bottom: 12px;
+         margin-bottom: 12px;
+         border-bottom: 1px solid #E5E5E5;
+         color: #000000;
+         font-size: 14px;
+         font-weight: 600;
+         }
+         .order-info-item:last-child, .order-info-item.last-visible {
+         padding: 0;
+         margin: 0;
+         border: none;
+         }
+         .order-info-item .text {
+         display: inline-flex;
+         flex-direction: column;
+         }
+         .order_details_item {
+         display: flex;
+         align-items: flex-start;
+         border-bottom: 1px solid #E5E5E5;
+         padding-bottom: 12px;
+         margin-bottom: 12px;
+         }
+         .order_details_item img {
+         flex: 0 0 auto;
+         width: 96px;
+         height: 80px;
+         object-fit: cover;
+         object-position: center;
+         border: 1px solid #ECECEC;
+         margin-left: auto;
+         border-radius: 8px;
+         }
+         .order_details_item .title {
+         display: flex;
+         align-items: center;
+         gap: 8px;
+         color: #000;
+         font-size: 14px;
+         font-weight: 700;
+         margin-bottom: 6px;
+         }
+         .order_details_item .title .quantity {
+         display: inline-flex;
+         align-items: center;
+         gap: 4px;
+         }
+         .order_details_item .title .quantity i {
+         font-style: normal;
+         width: 20px;
+         height: 20px;
+         border-radius: 100%;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         background: #000;
+         color: #fff;
+         font-size: 12px;
+         font-weight: 500;
+         }
+         .order_details_item .price {
+         font-size: 14px;
+         font-weight: 600;
+         margin-bottom: 0;
+         color: var(--main);
+         }
+         .order_details_item .extras {
+         color: #666666;
+         display: inline-flex;
+         flex-direction: column;
+         font-size: 12px;
+         font-weight: 600;
+         line-height: 22px;
+         }
+         .order-details-wrapper .order_total {
+         display: flex;
+         align-items: center;
+         color: #000;
+         font-size: 14px;
+         font-weight: 700;
+         }
+         .order-details-wrapper .order_total b {
+         margin-left: auto;
+         color: var(--main);
+         }
+         .order-details-wrapper .order_total b i {
+         font-style: normal;
+         }
+         .order-type-drop {
+         position: relative;
+         margin-left: 16px;
+         }
+         .order-type-toggle svg.check {
+         display: none;
+         }
+         .order-type-drop .order-type-drop-menu {
+         position: absolute;
+         left:0;
+         top: calc(100% + 6px);
+         background: #fff;
+         width: 200px;
+         padding: 12px;
+         border-radius: 10px;
+         box-shadow: 0 5px 10px rgba(0,0,0,0.09);
+         opacity: 0;
+         visibility: hidden;
+         transition: all 0.3s;
+         z-index: -100;
+         }
+         .order-type-toggle .text {
+         display: flex;
+         align-items: center;
+         font-size: 14px;
+         font-weight: 700;
+         gap: 12px;
+         }
+         .order-type-toggle {
+         position: relative;
+         padding-right: 30px;
+         cursor: pointer;
+         }
+         .order-type-toggle .text .icon {
+         width: 32px;
+         height: 32px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 100%;
+         background: rgba(var(--main_opacity),.1);
+         }
+         .order-type-toggle .text .icon path {
+         fill: var(--main);
+         }
+         .order-type-toggle .arrow {
+         position: absolute;
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         }
+         .order-type-drop.active .order-type-drop-menu {
+         opacity: 1;
+         visibility: visible;
+         z-index: 99;
+         }
+         .feature-section .img img{
+         width:auto;
+         }
+         .popup-item.incongnto-hint {
+         align-items: flex-end !important;
+         }
+         .popup-item.incongnto-hint .popup-wrapper {
+         border-radius: 16px 16px 0 0 !important;
+         }
+         .popup-item.incongnto-hint .popup-wrapper .incongnto-text {
+         font-size: 14px;
+         font-weight: 600;
+         color: #000;
+         }
+         .product-info .product-p .more-info {
+         display: flex;
+         align-items: center;
+         }
+         .product-info .product-p .more-info span {
+         display: inline-flex;
+         align-items: center;
+         gap: 6px;
+         }
+         .popup-item.social-popup {
+         backdrop-filter: blur(8px);
+         flex-direction: column;
+         }
+         .social-media-inline {
+         height: 80px;
+         width: 768px;
+         margin: 0 auto;
+         max-width: 100%;
+         padding: 36px 16px 16px;
+         background: var(--main);
+         border-radius: 0 0 16px 16px;
+         margin-top: -20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 20px;
+         }
+         .social-media-inline .icon circle, .social-media-inline .icon path, .social-media-inline .icon rect{
+         fill:#fff;
+         }
+         .social-popup .popup-wrapper {
+         position: relative;
+         z-index: 1;
+         }
+         .popup-social-list a:last-child {
+         margin: 0;
+         }
+         .product-images {
+         height: 350px;
+         margin-bottom: 12px !important;
+         border-radius:16px 16px 0 0;
+         overflow:hidden;
+         }
+         ul.slick-dots {
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         left: 0;
+         margin: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 10px;
+         }
+         .slick-dots li {
+         width: 10px;
+         height: 3px;
+         border-radius: 10px;
+         background: #d5d5d5;
+         transition: all .3s;
+         margin: 0 3px;
+         }
+         .slick-dots li.slick-active {
+         background: var(--main);
+         }
+         .fixed-ad a {
+         width: auto;
+         padding: 0 14px;
+         }
+         @media (max-width: 991px) {
+         .feature-section .img img{
+         width:100%;
+         }
+         }
+         @media (max-width: 786px) {
+         .resto__cover img , .about-img-wrap img{
+         border-radius: 0 0 16px 16px;
+         }
+         }
+         @media (max-width: 500px) {
+         .product-items-wrap.grid .product-item img {
+         height: 115px;
+         }
+         .product-images {
+         height: 280px;
+         }
+         }
+         @media (max-width: 380px) {
+         .add-cart-wrapper .add-cart {
+         padding: 0 10px;
+         gap: 16px;
+         font-size: 15px;
+         }
+         }
+         .nav-item {
+         font-size: 16px;
+         font-weight: 500;
+         color: #fff !important;
+         margin-left: 16px;
+         -webkit-transition: all .3s;
+         transition: all .3s;
+         height: 40px;
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         padding: 0 16px;
+         transition:all 0.3s;
+         border-radius:8px;
+         }
+         .nav-item:hover {
+         background:rgba(255,255,255,0.1) !important;
+         }
+         .mobile-menu-wrap {
+         position: fixed;
+         top: 0;
+         right: 0;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         height: 100vh;
+         display: flex;
+         align-items: flex-end;
+         transition: all 0.3s;
+         opacity: 0;
+         visibility: hidden;
+         z-index: -999;
+         background: rgba(7, 73, 66, 0.9);
+         }
+         .mobile-menu-wrap.active {
+         opacity: 1;
+         visibility: visible;
+         z-index: 999999;
+         }
+         .close-menu {
+         position: absolute;
+         left: 20px;
+         top: 30px;
+         width: 40px;
+         height: 40px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: rgba(255, 255, 255, 0.1);
+         border-radius: 8px;
+         }
+         .mobile-menu {
+         display: flex;
+         flex-direction: column;
+         padding: 32px 20px;
+         background: #FFFFFF;
+         width: 100%;
+         border-radius: 24px 24px 0 0;
+         }
+         .mobile-menu a {
+         display: flex;
+         height: 32px;
+         color: #000000;
+         font-size: 16px;
+         font-weight: 600;
+         margin-bottom: 16px;
+         }
+         .mobile-menu .sp {
+         height: 1px;
+         background: #F6F6F6;
+         margin-bottom:24px;
+         }
+         .mobile-menu .btns a {
+         margin-bottom: 12px;
+         height: 48px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 8px;
+         font-weight: 700;
+         }
+         .mobile-menu .btns a:last-child {
+         margin: 0;
+         }
+         .mobile-menu .btns a.login {
+         border: 1px solid #E1E1E1;
+         background: #fff;
+         }
+         .mobile-menu .btns a.cp, .mobile-menu .btns a.register {
+         background: #DD6D3F;
+         color: #fff;
+         }
+         @media (max-width: 991px) {
+         .header-wrap .header-left > a:not(.menu_toggle) {
+         display: none !important;
+         }
+         .menu_toggle {
+         display: inline-block;
+         }
+         .header-wrap .header-left .lang-select {
+         margin-right: 16px;
+         }
+         .header-left .lang-toggle {
+         border: 1px solid rgba(255,255,255,0.1);
+         border-radius: 8px;
+         width: auto;
+         }
+         .header-left .lang-toggle span {
+         display: none;
+         }
+         }	
+         .order_type_item circle, .order_type_item path {
+         fill: var(--main);
+         }
+         .lang-select .lang-dropdown svg {
+         display: none;
+         }
+      </style>
+      <style>.no-js img.lazyload {
+         display: none;
+         }
+         figure.wp-block-image img.lazyloading {
+         min-width: 150px;
+         }
+         .lazyload, .lazyloading {
+         opacity: 0;
+         }
+         .lazyloaded {
+         opacity: 1;
+         transition: opacity 400ms;
+         transition-delay: 0ms;
+         }
+      </style>
+      <style type="text/css">/* Notice fallback */
+         #nsl-notices-fallback {
+         position: fixed;
+         right: 10px;
+         top: 10px;
+         z-index: 10000;
+         }
+         .admin-bar #nsl-notices-fallback {
+         top: 42px;
+         }
+         #nsl-notices-fallback > div {
+         position: relative;
+         background: #fff;
+         border-left: 4px solid #fff;
+         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+         margin: 5px 15px 2px;
+         padding: 1px 20px;
+         }
+         #nsl-notices-fallback > div.error {
+         display: block;
+         border-left-color: #dc3232;
+         }
+         #nsl-notices-fallback > div.updated {
+         display: block;
+         border-left-color: #46b450;
+         }
+         #nsl-notices-fallback p {
+         margin: .5em 0;
+         padding: 2px;
+         }
+         #nsl-notices-fallback > div:after {
+         position: absolute;
+         right: 5px;
+         top: 5px;
+         content: '\00d7';
+         display: block;
+         height: 16px;
+         width: 16px;
+         line-height: 16px;
+         text-align: center;
+         font-size: 20px;
+         cursor: pointer;
+         }
+      </style>
+   </head>
+   <body >
+      <div class="mobile-menu-wrap">
+         <div class="close-menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M6.00001 19C5.74401 19 5.48801 18.9019 5.29301 18.7069C4.90201 18.3169 4.90201 17.683 5.29301 17.293L17.293 5.29301C17.684 4.90201 18.316 4.90201 18.707 5.29301C19.098 5.68301 19.098 6.31695 18.707 6.70695L6.70701 18.7069C6.51201 18.9019 6.25601 19 6.00001 19Z" fill="white"/>
+               <path opacity="0.4" d="M18 19C17.744 19 17.488 18.9019 17.293 18.7069L5.29301 6.70695C4.90201 6.31695 4.90201 5.68301 5.29301 5.29301C5.68401 4.90201 6.31601 4.90201 6.70701 5.29301L18.707 17.293C19.098 17.683 19.098 18.3169 18.707 18.7069C18.512 18.9019 18.256 19 18 19Z" fill="white"/>
+            </svg>
+         </div>
+         <div class="mobile-menu">
+            <a href="https://menux.app/?lang=en">Home</a> <a href="https://menux.app/blog">Blog</a> <a href="https://menux.app/?lang=en#prices">Pricing</a>
+            <div class="sp"></div>
+            <div class="btns"> <a href="https://menux.app/dashboard/stats" class="cp">Control Panel</a></div>
+         </div>
+      </div>
+      <style>.whatsapp-float {
+         position: fixed;
+         left: 24px;
+         bottom: 24px;
+         z-index: 10;
+         }
+      </style>
+      <style>.rest_status {
+         right: 0 !important;
+         left:auto !important;
+         top: 50%;
+         transform: translateY(-50%);
+         bottom:auto;
+         padding: 0px 8px 2px;
+         }
+         .resto-cover-wrap .info .text {
+         width: 100%;
+         }
+         .resto-cover-wrap .info .text h3 {
+         position:relative;
+         white-space: pre-wrap;
+         width: 100%;
+         padding-right: 10px;
+         }
+      </style>
+      <style>@media (max-width: 550px) {
+         .header-link.share {
+         display: none;
+         }
+         }
+      </style>
+      <script defer src="data:text/javascript;base64,CiAgICBjb25zdCBzaGFyZURhdGEgPSB7CiAgICAgIHRpdGxlOiAi2LPZiNio2LEg2KrYtNmD2YYiLAogICAgICB0ZXh0OiJCcm93c2UgdGhlIGRpZ2l0YWwgbWVudSBmb3IgKNiz2YjYqNixINiq2LTZg9mGKSBhbmQgZW5qb3kgdGhlIGRpZ2l0YWwgaG9zcGl0YWxpdHkgZXhwZXJpZW5jZSIsCiAgICAgIHVybDogImh0dHBzOi8vbWVudXguYXBwL3N1cGVyLWNoaWNrZW4vIiwKICAgIH07Cg=="></script> 
+      <div class="page-wrapper order" style="padding-bottom:80px;">
+         <header>
+            <a href="#" class="header-link social-trigger open-popup" data-popup=".social-popup">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g id="menu" transform="translate(-120 -3068)">
+                     <rect id="Frame" width="24" height="24" transform="translate(120 3068)" opacity="0"/>
+                     <path id="Path_5373" data-name="Path 5373" d="M141,3075H123a1,1,0,0,1,0-2h18a1,1,0,0,1,0,2Z" opacity="0.4"/>
+                     <path id="Path_5374" data-name="Path 5374" d="M141,3081H123a1,1,0,0,1,0-2h18a1,1,0,0,1,0,2Z"/>
+                     <path id="Path_5375" data-name="Path 5375" d="M141,3087H123a1,1,0,0,1,0-2h18a1,1,0,0,1,0,2Z" opacity="0.4"/>
+                  </g>
+               </svg>
+            </a>
+            <div class="header-links-wrap">
+               <div class="lang-select front drop-item lang-select-cp">
+                  <a href="#" class="lang-toggle drop-toggle">
+                     <img decoding="async" data-src="https://menux.app/wp-content/themes/menux/images/lang-en.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" /> <span>EN</span> 
+                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 12.5C9.7867 12.5 9.57334 12.4184 9.41084 12.2559L6.0775 8.92256C5.75167 8.59673 5.75167 8.07001 6.0775 7.74418C6.40334 7.41834 6.93006 7.41834 7.25589 7.74418L10 10.4883L12.7442 7.74418C13.07 7.41834 13.5967 7.41834 13.9226 7.74418C14.2484 8.07001 14.2484 8.59673 13.9226 8.92256L10.5892 12.2559C10.4267 12.4184 10.2134 12.5 10 12.5Z" fill="white"/>
+                     </svg>
+                  </a>
+                  <div class="lang-dropdown">
+                     <a href="https://menux.app/super-chicken/?lang=ar">
+                        <img decoding="async" data-src="https://menux.app/wp-content/themes/menux/images/flags/1x1/ps.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" /> <span>العربية</span> 
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M10 12.5C9.7867 12.5 9.57334 12.4184 9.41084 12.2559L6.0775 8.92256C5.75167 8.59673 5.75167 8.07001 6.0775 7.74418C6.40334 7.41834 6.93006 7.41834 7.25589 7.74418L10 10.4883L12.7442 7.74418C13.07 7.41834 13.5967 7.41834 13.9226 7.74418C14.2484 8.07001 14.2484 8.59673 13.9226 8.92256L10.5892 12.2559C10.4267 12.4184 10.2134 12.5 10 12.5Z" fill="white"/>
+                        </svg>
+                     </a>
+                     <a href="https://menux.app/super-chicken/?lang=tr">
+                        <img decoding="async" data-src="https://menux.app/wp-content/themes/menux/images/lang-tr.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" /> <span>Türkçe</span> 
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M10 12.5C9.7867 12.5 9.57334 12.4184 9.41084 12.2559L6.0775 8.92256C5.75167 8.59673 5.75167 8.07001 6.0775 7.74418C6.40334 7.41834 6.93006 7.41834 7.25589 7.74418L10 10.4883L12.7442 7.74418C13.07 7.41834 13.5967 7.41834 13.9226 7.74418C14.2484 8.07001 14.2484 8.59673 13.9226 8.92256L10.5892 12.2559C10.4267 12.4184 10.2134 12.5 10 12.5Z" fill="white"/>
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+               </div>
+         </header>
+         <div class="resto-cover-wrap">
+            <div class="resto__cover"> <img decoding="async" data-src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://menux.app/wp-content/uploads/2024/06/66741cd9c68a3.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" /></div>
+            <div class="info">
+               <div class="logo"> <img decoding="async" data-src="https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/zalatah_logo.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" /></div>
+               <div class="text">
+                  <h3>زلطه</h3>
+                  <p>سلطات وأكثر</p>
+               </div>
+            </div>
+         </div>
+         <!-- Category Navigation (dynamic) -->
+         <div class="categories-list-wrap" id="cats-nav"></div>
+         <!-- Category Sections (dynamic) -->
+         <div class="data-cats-wrap" id="categories-container"></div>
+      </div>
+      <div class="popup-item cats-popup">
+         <div class="popup-wrapper">
+            <div class="popup-head">
+               <a href="#" class="close-popup">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <g id="times-circle" transform="translate(-400 -516)">
+                        <rect id="Frame" width="24" height="24" transform="translate(400 516)" opacity="0"/>
+                        <circle id="Ellipse_23" data-name="Ellipse 23" cx="10" cy="10" r="10" transform="translate(402 518)" opacity="0.4"/>
+                        <path id="Path_4915" data-name="Path 4915" d="M413.061,528l2.469-2.47a.75.75,0,0,0-1.06-1.06L412,526.939l-2.47-2.469a.75.75,0,0,0-1.06,1.06l2.469,2.47-2.469,2.47a.75.75,0,1,0,1.06,1.06l2.47-2.469,2.47,2.469a.75.75,0,0,0,1.06-1.06Z"/>
+                     </g>
+                  </svg>
+               </a>
+               <div class="title">Categories List</div>
+            </div>
+         </div>
+      </div>
+      <div class="popup-item work-popup">
+         <div class="popup-wrapper">
+            <div class="popup-head">
+               <a href="#" class="close-popup">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <g id="times-circle" transform="translate(-400 -516)">
+                        <rect id="Frame" width="24" height="24" transform="translate(400 516)" opacity="0"/>
+                        <circle id="Ellipse_23" data-name="Ellipse 23" cx="10" cy="10" r="10" transform="translate(402 518)" opacity="0.4"/>
+                        <path id="Path_4915" data-name="Path 4915" d="M413.061,528l2.469-2.47a.75.75,0,0,0-1.06-1.06L412,526.939l-2.47-2.469a.75.75,0,0,0-1.06,1.06l2.469,2.47-2.469,2.47a.75.75,0,1,0,1.06,1.06l2.47-2.469,2.47,2.469a.75.75,0,0,0,1.06-1.06Z"/>
+                     </g>
+                  </svg>
+               </a>
+               <div class="title">Working Hours</div>
+            </div>
+            <div class="popup-content">
+               <div class="work-hours-list">
+                  <div class="work-hours-item">
+                     <div class="title">Saturday</div>
+                     <div class="work-times"> <span>09:00 am</span><i>-</i><span>11:59 pm</span></div>
+                  </div>
+                  <div class="work-hours-item">
+                     <div class="title">Sunday</div>
+                     <div class="work-times"> <span>09:00 am</span><i>-</i><span>11:59 pm</span></div>
+                  </div>
+                  <div class="work-hours-item">
+                     <div class="title">Monday</div>
+                     <div class="work-times"> <span>09:00 am</span><i>-</i><span>11:59 pm</span></div>
+                  </div>
+                  <div class="work-hours-item">
+                     <div class="title">Tuesday</div>
+                     <div class="work-times"> <span>09:00 am</span><i>-</i><span>11:59 pm</span></div>
+                  </div>
+                  <div class="work-hours-item">
+                     <div class="title">Wednesday</div>
+                     <div class="work-times"> <span>09:00 am</span><i>-</i><span>11:59 pm</span></div>
+                  </div>
+                  <div class="work-hours-item">
+                     <div class="title">Thursday</div>
+                     <div class="work-times"> <span>09:00 am</span><i>-</i><span>11:59 pm</span></div>
+                  </div>
+                  <div class="work-hours-item">
+                     <div class="title">Friday</div>
+                     <div class="work-times"> <span class="close" style="color:#FF3636;">Closed</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="popup-item social-popup">
+         <div class="popup-wrapper">
+            <div class="popup-head">
+               <a href="#" class="close-popup">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <g id="times-circle" transform="translate(-400 -516)">
+                        <rect id="Frame" width="24" height="24" transform="translate(400 516)" opacity="0"/>
+                        <circle id="Ellipse_23" data-name="Ellipse 23" cx="10" cy="10" r="10" transform="translate(402 518)" opacity="0.4"/>
+                        <path id="Path_4915" data-name="Path 4915" d="M413.061,528l2.469-2.47a.75.75,0,0,0-1.06-1.06L412,526.939l-2.47-2.469a.75.75,0,0,0-1.06,1.06l2.469,2.47-2.469,2.47a.75.75,0,1,0,1.06,1.06l2.47-2.469,2.47,2.469a.75.75,0,0,0,1.06-1.06Z"/>
+                     </g>
+                  </svg>
+               </a>
+               <div class="title">Menu</div>
+            </div>
+            <div class="popup-content">
+               <div class="popup-social-list">
+                  <a href="https://menux.app/super-chicken/?lang=en">
+                     <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                           <g id="home-dash" transform="translate(-1100 -1980)">
+                              <rect id="Frame" width="24" height="24" transform="translate(1100 1980)" fill="#dc6c3e" opacity="0"/>
+                              <path id="Path_5831" data-name="Path 5831" d="M1119.513,1998.948l1.455-7.982a2,2,0,0,0-.7-1.9l-6.681-5.494a2.5,2.5,0,0,0-3.178,0l-6.681,5.493a2,2,0,0,0-.7,1.9l1.455,7.982a2.5,2.5,0,0,0,2.46,2.052h10.106A2.5,2.5,0,0,0,1119.513,1998.948Z" fill="#dc6c3e" fill-rule="evenodd" opacity="0.4"/>
+                              <path id="Path_5832" data-name="Path 5832" d="M1114,1997.75h-4a.75.75,0,0,1,0-1.5h4a.75.75,0,0,1,0,1.5Z" fill="#dc6c3e"/>
+                           </g>
+                        </svg>
+                     </div>
+                     <span>Home</span> 
+                  </a>
+                  <a href="#" class="open-popup" data-popup=".work-popup">
+                     <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                           <g id="clock" transform="translate(-3340 -2148)">
+                              <rect id="Frame" width="24" height="24" transform="translate(3340 2148)" fill="#dc6c3e" opacity="0"/>
+                              <circle id="Ellipse_271" data-name="Ellipse 271" cx="10" cy="10" r="10" transform="translate(3342 2150)" fill="#dc6c3e" opacity="0.4"/>
+                              <path id="Path_7433" data-name="Path 7433" d="M3355,2163.75a.744.744,0,0,1-.53-.22l-3-3a.748.748,0,0,1-.22-.53v-5a.75.75,0,0,1,1.5,0v4.689l2.78,2.781a.75.75,0,0,1-.53,1.28Z" fill="#dc6c3e"/>
+                           </g>
+                        </svg>
+                     </div>
+                     <span>Working Hours</span> 
+                  </a>
+                  <a href="https://menux.app/super-chicken/about?lang=en">
+                     <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                           <g id="info-circle" transform="translate(-2192 -3500)">
+                              <rect id="Frame" width="24" height="24" transform="translate(2192 3500)" fill="#dc6c3e" opacity="0"/>
+                              <circle id="Ellipse_244" data-name="Ellipse 244" cx="10" cy="10" r="10" transform="translate(2194 3502)" fill="#dc6c3e" opacity="0.4"/>
+                              <path id="Path_6825" data-name="Path 6825" d="M2204,3517.25a.75.75,0,0,1-.75-.75v-4.571a.75.75,0,0,1,1.5,0v4.571A.75.75,0,0,1,2204,3517.25Zm1.02-8.75a1,1,0,0,0-1-1h-.01a1,1,0,1,0,1.01,1Z" fill="#dc6c3e"/>
+                           </g>
+                        </svg>
+                     </div>
+                     <span>About Us</span> 
+                  </a>
+                  <a target="_blank" href="https://maps.google.com/maps">
+                     <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                           <g id="location-pin" transform="translate(-120 -2524)">
+                              <rect id="Frame" width="32" height="32" transform="translate(120 2524)" fill="#dc6c3e" opacity="0"/>
+                              <path id="Path_5283" data-name="Path 5283" d="M134.833,2526.5a11.346,11.346,0,0,0-11.333,11.333c0,6.644,6.172,10.721,10.256,13.419l.708.469a.666.666,0,0,0,.739,0l.708-.469c4.084-2.7,10.256-6.775,10.256-13.419A11.346,11.346,0,0,0,134.833,2526.5Z" transform="translate(1.167 0.833)" fill="#dc6c3e" opacity="0.4"/>
+                              <circle id="Ellipse_80" data-name="Ellipse 80" cx="3.333" cy="3.333" r="3.333" transform="translate(132.667 2535.333)" fill="#dc6c3e"/>
+                           </g>
+                        </svg>
+                     </div>
+                     <span>Location</span> 
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="social-media-inline">
+            <a target="_blank" href="https://facebook.com/menuxapp/">
+               <div class="icon">
+                  <svg id="facebook-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <rect id="Frame" width="24" height="24" fill="#fff" opacity="0"/>
+                     <path id="Path_15479" data-name="Path 15479" d="M1169.742,4058.125V4066h-3.521v-7.875H1164v-3.258h2.221v-2.482c0-2.825,1.682-4.385,4.257-4.385a17.326,17.326,0,0,1,2.522.22v2.773h-1.421a1.629,1.629,0,0,0-1.837,1.759v2.114h3.126l-.5,3.258Z" transform="translate(-1156 -4045)" fill="#fff"/>
+                  </svg>
+               </div>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/appmenux/">
+               <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <g id="instagram" transform="translate(-1268 -4045)">
+                        <rect id="Frame" width="24" height="24" transform="translate(1268 4045)" fill="#fff" opacity="0"/>
+                        <path id="Path_15481" data-name="Path 15481" d="M1288.937,4053.287c.084,1.486.084,5.936,0,7.422a4.986,4.986,0,0,1-5.225,5.226c-1.485.084-5.939.084-7.424,0a4.986,4.986,0,0,1-5.225-5.226c-.084-1.486-.084-5.94,0-7.427a4.978,4.978,0,0,1,5.225-5.221c1.485-.084,5.939-.084,7.424,0a4.985,4.985,0,0,1,5.225,5.226Z" transform="translate(0 0)" fill="#fff" opacity="0.4"/>
+                        <path id="Path_15482" data-name="Path 15482" d="M1280,4061.75a4.75,4.75,0,1,1,4.75-4.75A4.756,4.756,0,0,1,1280,4061.75Zm0-8a3.25,3.25,0,1,0,3.25,3.25A3.254,3.254,0,0,0,1280,4053.75Zm6.52-2.25a1,1,0,0,0-1-1h-.01a1,1,0,1,0,1.01,1Z" transform="translate(0 0)" fill="#fff"/>
+                     </g>
+                  </svg>
+               </div>
+            </a>
+            <a target="_blank" href="https://x.com/appmenux">
+               <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <g id="tiktok" transform="translate(-1548 -4045)">
+                        <rect id="Frame" width="24" height="24" transform="translate(1548 4045)" fill="#fff" opacity="0"/>
+                        <path id="Path_15489" data-name="Path 15489" d="M1567.75,4055.267a8.044,8.044,0,0,1-4.5-1.359v6.187a5.627,5.627,0,1,1-5.626-5.628,5.57,5.57,0,0,1,.771.053v3.112a2.582,2.582,0,1,0,1.808,2.463V4048h3.047a4.1,4.1,0,0,0,.064.768h0a4.229,4.229,0,0,0,1.866,2.777,5.052,5.052,0,0,0,2.565.7Z" transform="translate(-0.063 -0.047)" fill="#fff"/>
+                     </g>
+                  </svg>
+               </div>
+            </a>
+            <a target="_blank" href="https://wa.me/+970567229844">
+               <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                     <g id="whatsapp" transform="translate(-1604 -4045)">
+                        <rect id="Frame" width="24" height="24" transform="translate(1604 4045)" fill="#fff" opacity="0"/>
+                        <path id="Path_15490" data-name="Path 15490" d="M1607,4066l1.26-4.41a9.006,9.006,0,1,1,3.15,3.15Z" fill="#fff" opacity="0.4"/>
+                        <path id="Path_15491" data-name="Path 15491" d="M1614.305,4054.588a.467.467,0,0,1,.02.433,2.17,2.17,0,0,1-.25.413c-.12.141-.261.323-.371.434a.355.355,0,0,0-.11.5,7.8,7.8,0,0,0,1.372,1.713,6.526,6.526,0,0,0,1.983,1.23c.241.121.391.1.531-.061a10.233,10.233,0,0,0,.781-.967c.16-.242.321-.2.551-.121s1.432.685,1.682.806.411.192.471.293a2.132,2.132,0,0,1-.14,1.178,2.51,2.51,0,0,1-1.662,1.18c-.451.05-.872.211-2.955-.615a10.155,10.155,0,0,1-4.206-3.739,4.834,4.834,0,0,1-1-2.559,2.776,2.776,0,0,1,.861-2.066.915.915,0,0,1,.661-.313c.17,0,.331,0,.481.011.17,0,.371.01.551.423C1613.774,4053.258,1614.245,4054.477,1614.305,4054.588Z" transform="translate(0)" fill="#fff" fill-rule="evenodd"/>
+                     </g>
+                  </svg>
+               </div>
+            </a>
+         </div>
+         <a href="https://maps.google.com/maps" target="_blank" class="google_review_wrap">
+            <div class="text">
+               <svg id="Group_172" data-name="Group 172" xmlns="http://www.w3.org/2000/svg" width="100.054" height="15.25" viewBox="0 0 100.054 15.25">
+                  <path id="Path_15492" data-name="Path 15492" d="M1283.885,955.785l1.73,3.514a.893.893,0,0,0,.674.49l4,.583a.9.9,0,0,1,.495,1.53l-2.891,2.821a.9.9,0,0,0-.257.795l.661,3.861a.956.956,0,0,1-1.385,1.011l-3.467-1.825a.9.9,0,0,0-.832,0l-3.464,1.824a.958.958,0,0,1-1.389-1.013l.661-3.858a.9.9,0,0,0-.257-.795l-2.891-2.821a.9.9,0,0,1,.495-1.53l4-.583a.893.893,0,0,0,.674-.49l1.73-3.514A.957.957,0,0,1,1283.885,955.785Z" transform="translate(-1191 -955.25)" fill="#fbbc04"/>
+                  <path id="Path_15493" data-name="Path 15493" d="M1283.885,955.785l1.73,3.514a.893.893,0,0,0,.674.49l4,.583a.9.9,0,0,1,.495,1.53l-2.891,2.821a.9.9,0,0,0-.257.795l.661,3.861a.956.956,0,0,1-1.385,1.011l-3.467-1.825a.9.9,0,0,0-.832,0l-3.464,1.824a.958.958,0,0,1-1.389-1.013l.661-3.858a.9.9,0,0,0-.257-.795l-2.891-2.821a.9.9,0,0,1,.495-1.53l4-.583a.893.893,0,0,0,.674-.49l1.73-3.514A.957.957,0,0,1,1283.885,955.785Z" transform="translate(-1212 -955.25)" fill="#fbbc04"/>
+                  <path id="Path_15494" data-name="Path 15494" d="M1283.885,955.785l1.73,3.514a.893.893,0,0,0,.674.49l4,.583a.9.9,0,0,1,.495,1.53l-2.891,2.821a.9.9,0,0,0-.257.795l.661,3.861a.956.956,0,0,1-1.385,1.011l-3.467-1.825a.9.9,0,0,0-.832,0l-3.464,1.824a.958.958,0,0,1-1.389-1.013l.661-3.858a.9.9,0,0,0-.257-.795l-2.891-2.821a.9.9,0,0,1,.495-1.53l4-.583a.893.893,0,0,0,.674-.49l1.73-3.514A.957.957,0,0,1,1283.885,955.785Z" transform="translate(-1233 -955.25)" fill="#fbbc04"/>
+                  <path id="Path_15495" data-name="Path 15495" d="M1283.885,955.785l1.73,3.514a.893.893,0,0,0,.674.49l4,.583a.9.9,0,0,1,.495,1.53l-2.891,2.821a.9.9,0,0,0-.257.795l.661,3.861a.956.956,0,0,1-1.385,1.011l-3.467-1.825a.9.9,0,0,0-.832,0l-3.464,1.824a.958.958,0,0,1-1.389-1.013l.661-3.858a.9.9,0,0,0-.257-.795l-2.891-2.821a.9.9,0,0,1,.495-1.53l4-.583a.893.893,0,0,0,.674-.49l1.73-3.514A.957.957,0,0,1,1283.885,955.785Z" transform="translate(-1254 -955.25)" fill="#fbbc04"/>
+                  <path id="Path_15496" data-name="Path 15496" d="M1283.885,955.785l1.73,3.514a.893.893,0,0,0,.674.49l4,.583a.9.9,0,0,1,.495,1.53l-2.891,2.821a.9.9,0,0,0-.257.795l.661,3.861a.956.956,0,0,1-1.385,1.011l-3.467-1.825a.9.9,0,0,0-.832,0l-3.464,1.824a.958.958,0,0,1-1.389-1.013l.661-3.858a.9.9,0,0,0-.257-.795l-2.891-2.821a.9.9,0,0,1,.495-1.53l4-.583a.893.893,0,0,0,.674-.49l1.73-3.514A.957.957,0,0,1,1283.885,955.785Z" transform="translate(-1275 -955.25)" fill="#fbbc04"/>
+               </svg>
+               <span>Share your experience and rating on Google Maps</span>
+            </div>
+            <img decoding="async" data-src="https://menux.app/wp-content/themes/menux/images/google-review.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" /> 
+         </a>
+      </div>
+      <script defer src="data:text/javascript;base64,CiAgICBjb25zdCBidG4gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgic2hhcmVCdXR0b24iKTsKCiAgICAvLyBTaGFyZSBtdXN0IGJlIHRyaWdnZXJlZCBieSAidXNlciBhY3RpdmF0aW9uIgogICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgYXN5bmMgKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGF3YWl0IG5hdmlnYXRvci5zaGFyZShzaGFyZURhdGEpOwogICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgfQogICAgfSk7Cg=="></script> 
+
+      <script defer type="text/javascript" src="https://menux.app/wp-content/themes/menux/js/jquery-3.4.1.min.js"></script>
+      <script defer type="text/javascript" src="https://menux.app/wp-content/themes/menux/js/owl.carousel.min.js"></script>
+      <script defer type="text/javascript" src="https://menux.app/wp-content/cache/autoptimize/js/autoptimize_single_f0f5db539e4e4634e93a2764c43da394.js?253"></script>
+      <script defer type="text/javascript" src="https://menux.app/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js?ver=3.18.0" id="smush-lazy-load-js"></script>
+      
+      <!-- Dynamic Menu Loader -->
+      <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        fetch('https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/menu_bilingual.json')
+          .then(response => {
+            if (!response.ok) {
+              console.error('Failed to fetch menu_bilingual.json:', response.status, response.statusText);
+              return [];
+            }
+            return response.json();
+          })
+          .then(menu => {
+            if (!Array.isArray(menu) || menu.length === 0) {
+              console.warn('Menu JSON is empty or not an array.');
+              return;
+            }
+            const lang = document.documentElement.dir === 'rtl' ? 'ar' : 'en';
+            // Render category navigation
+            const nav = document.getElementById('cats-nav');
+            nav.innerHTML = menu.map((cat, i) =>
+              `<a href="#cat${getCategoryIdByName(cat.category[lang])}" class="cat-list-item${i===0?' active':''}" data-id="${getCategoryIdByName(cat.category[lang])}">
+                <span>${cat.category[lang]}</span>
+              </a>`
+            ).join('');
+            // Render category sections
+            const catsContainer = document.getElementById('categories-container');
+            catsContainer.innerHTML = menu.map((cat, i) =>
+              `<div class="category-item-wrap" id="cat${getCategoryIdByName(cat.category[lang])}" data-id="${getCategoryIdByName(cat.category[lang])}">
+                <div class="category-title">${cat.category[lang]}</div>
+                <div class="product-items-wrap">
+                  <div class="product-items-wrap" id="product-list-${getCategoryIdByName(cat.category[lang])}"></div>
+               </div>
+              </div>`
+            ).join('');
+            // Debug: Log all categories and their IDs
+            console.log('=== MENU DEBUGGING ===');
+            console.log('Total categories:', menu.length);
+            
+            // Render products in each category
+            menu.forEach((category, index) => {
+              const catName = category.category[lang];
+              const catId = getCategoryIdByName(catName);
+              const containerId = `product-list-${catId}`;
+              
+              console.log(`\nProcessing category ${index + 1}:`, {
+                name: catName,
+                id: catId,
+                containerId: containerId,
+                productCount: category.products?.length || 0
+              });
+              
+              const catWrap = document.getElementById(containerId);
+              if (!catWrap) {
+                console.error('⚠️ Container not found for category:', {
+                  name: catName,
+                  id: catId,
+                  containerId: containerId
+                });
+                return;
+              }
+              
+              // Clear previous content
+              catWrap.innerHTML = '';
+              
+              // Check if category has products
+              if (!Array.isArray(category.products) || category.products.length === 0) {
+                console.log('ℹ️ No products for category:', catName);
+                catWrap.innerHTML = '<div style="color:#666">No products available</div>';
+                return;
+              }
+              
+              // Add debug info to container
+              catWrap.setAttribute('data-debug-category', catName);
+              
+              // Render products
+              category.products.forEach((product, pIndex) => {
+                try {
+                  // Ensure product has required properties
+                  if (!product || typeof product !== 'object') {
+                    console.error('❌ Invalid product data:', product);
+                    return;
+                  }
+                  
+                  // Ensure title exists in the current language
+                  if (!product.title || typeof product.title !== 'object' || !product.title[lang]) {
+                    console.warn('⚠️ Missing title for product in', lang, 'language. Using fallback title.');
+                    product.title = product.title || {};
+                    product.title[lang] = product.title[lang] || 'Product ' + (pIndex + 1);
+                  }
+                  
+                  // Render the product
+                  const productHtml = renderProduct(product, lang);
+                  if (productHtml) {
+                    catWrap.innerHTML += productHtml;
+                    console.log(`  ✓ Rendered product ${pIndex + 1}: ${product.title[lang]}`);
+                  } else {
+                    console.error('❌ Empty HTML returned for product:', product.title[lang]);
+                  }
+                } catch (e) {
+                  console.error('❌ Error rendering product:', e);
+                  console.error('Product data:', product);
+                }
+              });
+              
+              // Log final container state
+              console.log(`✅ Rendered ${category.products.length} products in "${catName}"`);
+            });
+            
+            console.log('\n=== RENDERING COMPLETE ===');
+            console.log('Total categories processed:', menu.length);
+            console.log('Total product containers:', document.querySelectorAll('[id^="product-list-"]').length);
+          })
+          .catch(err => {
+            console.error('Error loading menu_bilingual.json:', err);
+          });
+      });
+      // Helper: Map category name to ID
+      function getCategoryIdByName(name) {
+        const map = {
+          'Weekly Offer': '43812', 'عرض الأسبوع': '43812',
+          'New': '348', 'جديد': '348',
+          'Appetizers and Salads': '352', 'المقبلات والسلطات': '352',
+          'Meals': '346', 'وجبات': '346',
+          'Burger': '347', 'برجر': '347',
+          'Desserts': '349', 'حلويات': '349',
+          'Cold Drinks': '350', 'المشروبات الباردة': '350',
+          'Shawarma': '1065', 'شاورما': '1065'
+        };
+        return map[name] || name.replace(/\s+/g, '').toLowerCase(); // fallback: slugify
+      }
+      // Helper: Render a product item
+      function renderProduct(product, lang) {
+        return `
+        <div class="product-item">
+          <div class="product-more-info" style="display:none;">
+            <div class="descrip">${product.description[lang]}</div>
+               </div>
+          <a href="#" class="order" data-id="" data-basePrice="${Array.isArray(product.price) ? product.price[0] : product.price}">
+            <div class="info">
+              <div class="product-title-wrapper">
+                <h3>${product.title[lang]}</h3>
+                <div class="cart-item-quantity"></div>
+                  </div>
+              <p>${product.description[lang]}</p>
+              <span>${Array.isArray(product.price) ? product.price.map(p => `<i>${p} ₪</i>`).join(' <i class="dash">-</i> ') : product.price + ' ₪'}</span>
+               </div>
+            <img decoding="async" class="item__img lazyload" data-img="${product.image}" src="${product.image}" />
+          </a>
+               </div>
+        `;
+      }
+      // Inline comments: You can expand renderProduct to include extras, choices, calories, etc.
+      </script>
+   </body>
+</html>
