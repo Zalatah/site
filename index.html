@@ -1193,6 +1193,67 @@
            }
          }
       </style>
+      <style>
+      /* Lightbox/Popup Styles */
+      .image-lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.9);
+        z-index: 10000;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.3s;
+      }
+      .image-lightbox.active {
+        display: flex;
+      }
+      .lightbox-content {
+        position: relative;
+        max-width: 90vw;
+        max-height: 90vh;
+        background: transparent;
+        border-radius: 8px;
+        box-shadow: 0 2px 24px rgba(0,0,0,0.6);
+      }
+      .lightbox-content img {
+        max-width: 90vw;
+        max-height: 80vh;
+        border-radius: 8px;
+        display: block;
+      }
+      .close-lightbox {
+        position: absolute;
+        top: -32px;
+        right: 0;
+        color: white;
+        font-size: 32px;
+        cursor: pointer;
+        background: rgba(0,0,0,0.6);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid white;
+      }
+      .close-lightbox:hover {
+        background: #e60040;
+      }
+      @media (max-width: 600px) {
+        .lightbox-content img {
+          max-width: 98vw;
+          max-height: 60vh;
+        }
+        .close-lightbox {
+          top: -50px;
+        }
+      }
+      </style>
       <style>.no-js img.lazyload {
          display: none;
          }
@@ -1472,11 +1533,14 @@
             </div>
          </div>
          <div class="social-media-inline">
-            <a target="_blank" href="https://facebook.com//">
+            <a target="_blank" href="https://tiktok.com/@zalatah.sa/">
                <div class="icon">
-                  <svg id="facebook-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                     <rect id="Frame" width="24" height="24" fill="#fff" opacity="0"/>
-                     <path id="Path_15479" data-name="Path 15479" d="M1169.742,4058.125V4066h-3.521v-7.875H1164v-3.258h2.221v-2.482c0-2.825,1.682-4.385,4.257-4.385a17.326,17.326,0,0,1,2.522.22v2.773h-1.421a1.629,1.629,0,0,0-1.837,1.759v2.114h3.126l-.5,3.258Z" transform="translate(-1156 -4045)" fill="#fff"/>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> 
+                     <g id="tiktok" transform="translate(-1548 -4045)"> 
+                        <rect id="Frame" width="24" height="24" transform="translate(1548 4045)" fill="#fff" opacity="0"></rect> 
+                        <path id="Path_15489" data-name="Path 15489" d="M1567.75,4055.267a8.044,8.044,0,0,1-4.5-1.359v6.187a5.627,5.627,0,1,1-5.626-5.628,5.57,5.57,0,0,1,.771.053v3.112a2.582,2.582,0,1,0,1.808,2.463V4048h3.047a4.1,4.1,0,0,0,.064.768h0a4.229,4.229,0,0,0,1.866,2.777,5.052,5.052,0,0,0,2.565.7Z" transform="translate(-0.063 -0.047)" fill="#fff">
+                        </path> 
+                     </g> 
                   </svg>
                </div>
             </a>
@@ -1568,60 +1632,6 @@
                </div>
               </div>`
             ).join('');
-            // Add Intersection Observer to handle active states and scroll
-            const nav = document.getElementById('cats-nav');
-            const navItems = nav.querySelectorAll('.cat-list-item');
-            const categorySections = document.querySelectorAll('.category-item-wrap');
-            
-            // Function to update active nav item
-            function updateActiveNavItem(activeId) {
-              navItems.forEach(item => {
-                const itemId = item.getAttribute('data-id');
-                if (itemId === activeId) {
-                  item.classList.add('active');
-                  // Scroll the nav to center the active item
-                  const navWidth = nav.offsetWidth;
-                  const itemLeft = item.offsetLeft;
-                  const itemWidth = item.offsetWidth;
-                  const scrollPosition = itemLeft - (navWidth / 2) + (itemWidth / 2);
-                  
-                  nav.scrollTo({
-                    left: scrollPosition,
-                    behavior: 'smooth'
-                  });
-                } else {
-                  item.classList.remove('active');
-                }
-              });
-            }
-            
-            // Set up Intersection Observer
-            const observerOptions = {
-              root: null,
-              rootMargin: '0px',
-              threshold: 0.5 // Trigger when 50% of the section is visible
-            };
-            
-            const observer = new IntersectionObserver((entries) => {
-              entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                  const activeId = entry.target.getAttribute('data-id');
-                  updateActiveNavItem(activeId);
-                }
-              });
-            }, observerOptions);
-            
-            // Observe each category section
-            categorySections.forEach(section => {
-              observer.observe(section);
-            });
-            
-            // Set initial active item
-            if (navItems.length > 0) {
-              const firstItemId = navItems[0].getAttribute('data-id');
-              updateActiveNavItem(firstItemId);
-            }
-            
             // Debug: Log all categories and their IDs
             console.log('=== MENU DEBUGGING ===');
             console.log('Total categories:', menu.length);
@@ -1734,12 +1744,57 @@
               <p>${product.description[lang]}</p>
               <span>${Array.isArray(product.price) ? product.price.map(p => `<i>${p} <span class="icon-saudi_riyal"></span></i>`).join(' <i class="dash">-</i> ') : product.price + ' <span class="icon-saudi_riyal"></span>'}</span>
                </div>
-            <img decoding="async" class="item__img lazyload" data-img="${product.image}" src="${product.image}" />
+            <img decoding="async" class="item__img lazyload" data-img="${product.image}" src="${product.image}" style="cursor:pointer;" />
           </a>
                </div>
         `;
       }
       // Inline comments: You can expand renderProduct to include extras, choices, calories, etc.
       </script>
-   </body>
+     <!-- Lightbox for enlarged images -->
+  <div id="imageLightbox" class="image-lightbox">
+    <div class="lightbox-content">
+      <span class="close-lightbox" id="closeLightboxBtn">&times;</span>
+      <img id="enlargedImage" src="" alt="Enlarged view" />
+    </div>
+  </div>
+
+  <script>
+    // Lightbox logic
+    document.addEventListener('DOMContentLoaded', function() {
+      // Attach click handlers to all future .item__img images
+      document.body.addEventListener('click', function(e) {
+        const img = e.target.closest('.item__img');
+        if (img) {
+          e.preventDefault();
+          e.stopPropagation();
+          const lightbox = document.getElementById('imageLightbox');
+          const enlarged = document.getElementById('enlargedImage');
+          enlarged.src = img.getAttribute('data-img') || img.src;
+          lightbox.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+      // Close on X
+      document.getElementById('closeLightboxBtn').onclick = function() {
+        document.getElementById('imageLightbox').classList.remove('active');
+        document.body.style.overflow = '';
+      };
+      // Close on outside click
+      document.getElementById('imageLightbox').onclick = function(e) {
+        if (e.target === this) {
+          this.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      };
+      // Close on Escape
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          document.getElementById('imageLightbox').classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+    });
+  </script>
+</body>
 </html>
