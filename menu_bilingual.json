@@ -275,11 +275,19 @@
           "en": "Soft Drinks",
           "ar": "مشروبات غازية"
         },
+        "description": {
+          "en": "Soft Drinks",
+          "ar": "مشروبات غازية"
+        },
         "price": 3,
         "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
       },
       {
         "title": {
+          "en": "Ice Tea",
+          "ar": "ايس تي"
+        },
+        "description": {
           "en": "Ice Tea",
           "ar": "ايس تي"
         },
