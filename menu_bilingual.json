@@ -95,6 +95,10 @@
           "en": "Small",
           "ar": "صغير"
         },
+        "description": {
+          "en": "Small",
+          "ar": "صغير"
+        },
         "price": 15,
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/12.%20Small%20Fattah.png"
       },
@@ -103,11 +107,19 @@
           "en": "Medium",
           "ar": "وسط"
         },
+        "description": {
+          "en": "Medium",
+          "ar": "وسط"
+        },
         "price": 35,
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/14.%20Medium%20Fattah.png"
       },
       {
         "title": {
+          "en": "Family",
+          "ar": "عائلي"
+        },
+        "description": {
           "en": "Family",
           "ar": "عائلي"
         },
