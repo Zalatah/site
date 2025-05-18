@@ -171,6 +171,10 @@
           "en": "Make Your Own Salad",
           "ar": "اصنع سلطتك بنفسك"
         },
+        "description": {
+          "en": "Make Your Own Salad",
+          "ar": "اصنع سلطتك بنفسك"
+        },
         "price": "25 - 70",
         "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
       },
