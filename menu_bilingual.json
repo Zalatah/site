@@ -1,0 +1,312 @@
+[
+  {
+    "category": {
+      "en": "New",
+      "ar": "جديد"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "Tropica Salad",
+          "ar": "سلطة تروبيكا"
+        },
+        "description": {
+          "en": "Arugula, orange, pineapple, strawberry, pomegranate, quinoa, chia seeds, Tropica special sauce.",
+          "ar": "جرجير، برتقال، أناناس، فراولة، رمان، كينوا، بذور الشيا، صوص تروبيكا الخاص"
+        },
+        "price": 30,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg",
+        "duration": {
+          "en": "",
+          "ar": ""
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        },
+        "extras": [
+          {
+            "en": "",
+            "ar": "",
+            "price": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "New",
+      "ar": "جديد"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "Mexican Nachos",
+          "ar": "ناتشوز مكسيكي"
+        },
+        "description": {
+          "en": "A Mexican dish consisting of fried tortilla chips or totopos topped with melted cheese or cheese sauce",
+          "ar": "طبق مكسيكي يتكون من رقائق التورتيلا المقلية أو التوتوبوس مغطاة بالجبن الذائب أو صوص الجبن"
+        },
+        "price": [
+          20,
+          25,
+          30
+        ],
+        "image": "https://menux.app/wp-content/uploads/2024/06/0ecce7db3e00ce006be3c031859ebb4a_w750_h750.jpg",
+        "duration": {
+          "en": "20 Minute",
+          "ar": "20 دقيقة"
+        },
+        "calories": {
+          "en": "305 Cal",
+          "ar": "305 سعرة حرارية"
+        },
+        "extras": [
+          {
+            "en": "Crispy Chicken",
+            "ar": "دجاج مقرمش",
+            "price": 10
+          },
+          {
+            "en": "Beef Bacon",
+            "ar": "بيف بيكون",
+            "price": 10
+          }
+        ],
+        "choices": [
+          {
+            "en": "Coleslaw",
+            "ar": "كول سلو"
+          },
+          {
+            "en": "Barbecue Sauce",
+            "ar": "باربكيو صوص"
+          },
+          {
+            "en": "Honey Mustard Sauce",
+            "ar": "هاني ماسترد صوص"
+          }
+        ],
+        "sizes": [
+          {
+            "en": "Small",
+            "ar": "صغير",
+            "price": 20
+          },
+          {
+            "en": "Medium",
+            "ar": "وسط",
+            "price": 25
+          },
+          {
+            "en": "Large",
+            "ar": "كبير",
+            "price": 30
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Super Chicken Sandwich",
+          "ar": "ساندويتش سوبر تشيكن"
+        },
+        "description": {
+          "en": "Fried Chicken with Crispy Mozzarella Sticks",
+          "ar": "دجاج مقلي مع أصابع الموزاريلا المقرمشة"
+        },
+        "price": 28,
+        "image": "https://menux.app/wp-content/uploads/2024/06/2021_5_6_12_9_23_250.jpg",
+        "duration": {
+          "en": "25 Minute",
+          "ar": "25 دقيقة"
+        },
+        "calories": {
+          "en": "450 Cal",
+          "ar": "450 سعرة حرارية"
+        }
+      },
+      {
+        "title": {
+          "en": "Frashouha Shawarma",
+          "ar": "فراشوحا شاورما"
+        },
+        "description": {
+          "en": "Delicious chicken shawarma with the unique Super Chicken sauce",
+          "ar": "شاورما دجاج لذيذة مع صوص سوبر تشيكن المميز"
+        },
+        "price": [
+          10,
+          15
+        ],
+        "image": "https://menux.app/wp-content/uploads/2024/11/كم-سعرة-حرارية-في-وجبة-الشاورما-عربي.jpg",
+        "duration": {
+          "en": "20 Minute",
+          "ar": "20 دقيقة"
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        },
+        "extras": [
+          {
+            "en": "Potatoes",
+            "ar": "بطاطا",
+            "price": 3
+          }
+        ],
+        "choices": [
+          {
+            "en": "Ranch Sauce",
+            "ar": "صوص رانش"
+          },
+          {
+            "en": "Barbecue Sauce",
+            "ar": "باربكيو صوص"
+          }
+        ],
+        "sizes": [
+          {
+            "en": "Small",
+            "ar": "صغير",
+            "price": 10
+          },
+          {
+            "en": "Large",
+            "ar": "كبير",
+            "price": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Appetizers and Salads",
+      "ar": "المقبلات والسلطات"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "Super Chicken Fingers",
+          "ar": "أصابع الدجاج المقرمش"
+        },
+        "description": {
+          "en": "8 crispy chicken fingers with the unique Super Chicken flavor, served with cheddar sauce",
+          "ar": "8 قطع من أصابع الدجاج المقرمش بنكهة سوبر تشيكن المميزة، تقدم مع صوص الشيدر"
+        },
+        "price": 25,
+        "image": "https://menux.app/wp-content/uploads/2024/06/اصابع-الدجاج-المقرمش.jpg",
+        "duration": {
+          "en": "20 Minute",
+          "ar": "20 دقيقة"
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        }
+      },
+      {
+        "title": {
+          "en": "Mayonnaise Pasta Salad with Chicken",
+          "ar": "سلطة مكرونة بالمايونيز والدجاج"
+        },
+        "description": {
+          "en": "Pasta with mayonnaise and unique Super Chicken flavored chicken",
+          "ar": "مكرونة مع مايونيز ودجاج بنكهة سوبر تشيكن المميزة"
+        },
+        "price": 24,
+        "image": "https://menux.app/wp-content/uploads/2024/06/x21-38-58-274547752_4895347767221682_3717848560608551307_n-1.webp.pagespeed.ic_._j3QMmlGkc.webp",
+        "duration": {
+          "en": "15 Minute",
+          "ar": "15 دقيقة"
+        },
+        "calories": {
+          "en": "300 Cal",
+          "ar": "300 سعرة حرارية"
+        }
+      },
+      {
+        "title": {
+          "en": "Potato Wedges",
+          "ar": "بطاطا ودجز"
+        },
+        "description": {
+          "en": "Healthy oven-baked potato wedges",
+          "ar": "بطاطا ودجز مخبوزة بالفرن صحية"
+        },
+        "price": 15,
+        "image": "https://menux.app/wp-content/uploads/2024/06/001cb045ae79c435b1b713cc93cc4c97_w361_h361.jpeg",
+        "duration": {
+          "en": "10 Minute",
+          "ar": "10 دقائق"
+        },
+        "calories": {
+          "en": "100 Cal",
+          "ar": "100 سعرة حرارية"
+        }
+      },
+      {
+        "title": {
+          "en": "Potato Sticks with Minced Meat",
+          "ar": "أعواد البطاطا مع اللحم المفروم"
+        },
+        "description": {
+          "en": "Potato sticks with fresh minced meat and special chili sauce",
+          "ar": "أعواد البطاطا مع اللحم المفروم الطازج وصوص الفلفل الحار الخاص"
+        },
+        "price": 24,
+        "image": "https://menux.app/wp-content/uploads/2024/06/34db2b8a8a75d62026210c01475840e8_w750_h500.jpg",
+        "duration": {
+          "en": "20 Minute",
+          "ar": "20 دقيقة"
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        }
+      },
+      {
+        "title": {
+          "en": "Hummus with Meat",
+          "ar": "حمص مع لحم"
+        },
+        "description": {
+          "en": "Palestinian hummus with fried meat",
+          "ar": "حمص فلسطيني مع لحم مقلي"
+        },
+        "price": 20,
+        "image": "https://menux.app/wp-content/uploads/2024/06/37f707f42eb95053c70e389fbfa5c75e_w750_h500.jpeg",
+        "duration": {
+          "en": "15 Minute",
+          "ar": "15 دقيقة"
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        }
+      },
+      {
+        "title": {
+          "en": "Zucchini Moutabel",
+          "ar": "متبل كوسا"
+        },
+        "description": {
+          "en": "Zucchini pulp mixed with tahini, garlic, dried mint, lemon, and Parmesan cheese",
+          "ar": "لب الكوسا مع الطحينة والثوم والنعناع المجفف والليمون وجبنة البارميزان"
+        },
+        "price": 25,
+        "image": "https://menux.app/wp-content/uploads/2024/06/1715076370_node.jpg",
+        "duration": {
+          "en": "20 Minute",
+          "ar": "20 دقيقة"
+        },
+        "calories": {
+          "en": "200 Cal",
+          "ar": "200 سعرة حرارية"
+        }
+      }
+    ]
+  }
+]
