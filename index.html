@@ -1152,16 +1152,18 @@
            justify-content: center;
            background-color: #e60040;
            color: white;
-           padding: 10px 20px;
-           border-radius: 8px;
+           padding: 6px 12px;
+           border-radius: 6px;
            text-decoration: none;
            font-weight: 600;
-           font-size: 14px;
+           font-size: 12px;
            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
            transition: all 0.3s ease;
            margin-right: auto;
            font-family: 'IBM Plex Sans Arabic', sans-serif;
            letter-spacing: normal;
+           max-width: 100px;
+           white-space: nowrap;
          }
          
          .top-left-button:hover {
@@ -1176,12 +1178,18 @@
          }
          
          @media (max-width: 480px) {
-           .top-left-button span {
-             display: none;
-           }
-           
            .top-left-button {
-             padding: 8px;
+             padding: 4px 8px;
+             font-size: 11px;
+             max-width: 80px;
+           }
+         }
+         
+         @media (max-width: 360px) {
+           .top-left-button {
+             padding: 3px 6px;
+             font-size: 10px;
+             max-width: 70px;
            }
          }
       </style>
