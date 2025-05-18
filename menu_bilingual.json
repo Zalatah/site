@@ -1,8 +1,8 @@
 [
   {
     "category": {
-      "en": "New 🆕",
-      "ar": "جديد 🆕"
+      "en": "New",
+      "ar": "جديد"
     },
     "products": [
       {
@@ -36,148 +36,51 @@
   },
   {
     "category": {
-      "en": "New",
-      "ar": "جديد"
+      "en": "Sandwiches",
+      "ar": "الساندوتشات"
     },
     "products": [
       {
         "title": {
-          "en": "Mexican Nachos",
-          "ar": "ناتشوز مكسيكي"
+          "en": "Sourdough Fita Sandwich",
+          "ar": "ساندوتش الفيتا بخبز الساوردو"
         },
         "description": {
-          "en": "A Mexican dish consisting of fried tortilla chips or totopos topped with melted cheese or cheese sauce",
-          "ar": "طبق مكسيكي يتكون من رقائق التورتيلا المقلية أو التوتوبوس مغطاة بالجبن الذائب أو صوص الجبن"
+          "en": "Served with a side of crispy potato slices, prepared fresh daily.",
+          "ar": "ُتقدم مع طبق جانبي من شرائح البطاطس المقرمشة المحضرة يومًيا"
         },
         "price": [
-          20,
-          25,
-          30
+          22
         ],
-        "image": "https://menux.app/wp-content/uploads/2024/06/0ecce7db3e00ce006be3c031859ebb4a_w750_h750.jpg",
-        "duration": {
-          "en": "20 Minute",
-          "ar": "20 دقيقة"
-        },
-        "calories": {
-          "en": "305 Cal",
-          "ar": "305 سعرة حرارية"
-        },
-        "extras": [
-          {
-            "en": "Crispy Chicken",
-            "ar": "دجاج مقرمش",
-            "price": 10
-          },
-          {
-            "en": "Beef Bacon",
-            "ar": "بيف بيكون",
-            "price": 10
-          }
-        ],
-        "choices": [
-          {
-            "en": "Coleslaw",
-            "ar": "كول سلو"
-          },
-          {
-            "en": "Barbecue Sauce",
-            "ar": "باربكيو صوص"
-          },
-          {
-            "en": "Honey Mustard Sauce",
-            "ar": "هاني ماسترد صوص"
-          }
-        ],
-        "sizes": [
-          {
-            "en": "Small",
-            "ar": "صغير",
-            "price": 20
-          },
-          {
-            "en": "Medium",
-            "ar": "وسط",
-            "price": 25
-          },
-          {
-            "en": "Large",
-            "ar": "كبير",
-            "price": 30
-          }
-        ]
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/07.%20Feta%20Sandwich.png"
       },
       {
         "title": {
-          "en": "Super Chicken Sandwich",
-          "ar": "ساندويتش سوبر تشيكن"
+          "en": "Sourdough Halloumi Sandwich",
+          "ar": "ساندوتش الحلومي بخبز الساوردو"
         },
         "description": {
-          "en": "Fried Chicken with Crispy Mozzarella Sticks",
-          "ar": "دجاج مقلي مع أصابع الموزاريلا المقرمشة"
+          "en": "Served with a side of crispy potato slices, prepared fresh daily.",
+          "ar": "ُتقدم مع طبق جانبي من شرائح البطاطس المقرمشة المحضرة يومًيا"
         },
-        "price": 28,
-        "image": "https://menux.app/wp-content/uploads/2024/06/2021_5_6_12_9_23_250.jpg",
-        "duration": {
-          "en": "25 Minute",
-          "ar": "25 دقيقة"
-        },
-        "calories": {
-          "en": "450 Cal",
-          "ar": "450 سعرة حرارية"
-        }
+        "price": [
+          22
+        ],
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/08.%20Halloumi%20Sandwich.png"
       },
       {
         "title": {
-          "en": "Frashouha Shawarma",
-          "ar": "فراشوحا شاورما"
+          "en": "Sourdough Chicken Sandwich",
+          "ar": "ساندوتش الدجاج بخبز الساوردو"
         },
         "description": {
-          "en": "Delicious chicken shawarma with the unique Super Chicken sauce",
-          "ar": "شاورما دجاج لذيذة مع صوص سوبر تشيكن المميز"
+          "en": "Served with a side of crispy potato slices, prepared fresh daily.",
+          "ar": "ُتقدم مع طبق جانبي من شرائح البطاطس المقرمشة المحضرة يومًيا"
         },
         "price": [
-          10,
-          15
+          22
         ],
-        "image": "https://menux.app/wp-content/uploads/2024/11/كم-سعرة-حرارية-في-وجبة-الشاورما-عربي.jpg",
-        "duration": {
-          "en": "20 Minute",
-          "ar": "20 دقيقة"
-        },
-        "calories": {
-          "en": "N/A",
-          "ar": "غير متوفر"
-        },
-        "extras": [
-          {
-            "en": "Potatoes",
-            "ar": "بطاطا",
-            "price": 3
-          }
-        ],
-        "choices": [
-          {
-            "en": "Ranch Sauce",
-            "ar": "صوص رانش"
-          },
-          {
-            "en": "Barbecue Sauce",
-            "ar": "باربكيو صوص"
-          }
-        ],
-        "sizes": [
-          {
-            "en": "Small",
-            "ar": "صغير",
-            "price": 10
-          },
-          {
-            "en": "Large",
-            "ar": "كبير",
-            "price": 15
-          }
-        ]
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/09.%20Chicken%20Sandwich.png"
       }
     ]
   },
