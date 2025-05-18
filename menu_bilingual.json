@@ -291,7 +291,7 @@
           "en": "Ice Tea",
           "ar": "ايس تي"
         },
-        "price": 4,
+        "price": 3,
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Ice%20Tea.jpg"
       },
       {
@@ -329,6 +329,38 @@
         },
         "price": 1,
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Water.webp"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Subscriptions",
+      "ar": "الإشتراكات"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "30 Salads",
+          "ar": "30 سلطة"
+        },
+        "description": {
+          "en": "30 Salads",
+          "ar": "30 سلطة من سلطات اصنع بنفسك"
+        },
+        "price": 640,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/30.png"
+      },
+      {
+        "title": {
+          "en": "30 Salads with Protein",
+          "ar": "30 سلطة مع بروتين"
+        },
+        "description": {
+          "en": "30 Salads",
+          "ar": "30 سلطة من سلطات اصنع بنفسك، مع خيار البروتين المفضل لك، دجاج أو تونة"
+        },
+        "price": 770,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/30.png"
       }
     ]
   }
