@@ -86,129 +86,189 @@
   },
   {
     "category": {
-      "en": "Appetizers and Salads",
-      "ar": "المقبلات والسلطات"
+      "en": "Fattah",
+      "ar": "الفتة"
     },
     "products": [
       {
         "title": {
-          "en": "Super Chicken Fingers",
-          "ar": "أصابع الدجاج المقرمش"
-        },
-        "description": {
-          "en": "8 crispy chicken fingers with the unique Super Chicken flavor, served with cheddar sauce",
-          "ar": "8 قطع من أصابع الدجاج المقرمش بنكهة سوبر تشيكن المميزة، تقدم مع صوص الشيدر"
-        },
-        "price": 25,
-        "image": "https://menux.app/wp-content/uploads/2024/06/اصابع-الدجاج-المقرمش.jpg",
-        "duration": {
-          "en": "20 Minute",
-          "ar": "20 دقيقة"
-        },
-        "calories": {
-          "en": "N/A",
-          "ar": "غير متوفر"
-        }
-      },
-      {
-        "title": {
-          "en": "Mayonnaise Pasta Salad with Chicken",
-          "ar": "سلطة مكرونة بالمايونيز والدجاج"
-        },
-        "description": {
-          "en": "Pasta with mayonnaise and unique Super Chicken flavored chicken",
-          "ar": "مكرونة مع مايونيز ودجاج بنكهة سوبر تشيكن المميزة"
-        },
-        "price": 24,
-        "image": "https://menux.app/wp-content/uploads/2024/06/x21-38-58-274547752_4895347767221682_3717848560608551307_n-1.webp.pagespeed.ic_._j3QMmlGkc.webp",
-        "duration": {
-          "en": "15 Minute",
-          "ar": "15 دقيقة"
-        },
-        "calories": {
-          "en": "300 Cal",
-          "ar": "300 سعرة حرارية"
-        }
-      },
-      {
-        "title": {
-          "en": "Potato Wedges",
-          "ar": "بطاطا ودجز"
-        },
-        "description": {
-          "en": "Healthy oven-baked potato wedges",
-          "ar": "بطاطا ودجز مخبوزة بالفرن صحية"
+          "en": "Small",
+          "ar": "صغير"
         },
         "price": 15,
-        "image": "https://menux.app/wp-content/uploads/2024/06/001cb045ae79c435b1b713cc93cc4c97_w361_h361.jpeg",
-        "duration": {
-          "en": "10 Minute",
-          "ar": "10 دقائق"
-        },
-        "calories": {
-          "en": "100 Cal",
-          "ar": "100 سعرة حرارية"
-        }
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/12.%20Small%20Fattah.png"
       },
       {
         "title": {
-          "en": "Potato Sticks with Minced Meat",
-          "ar": "أعواد البطاطا مع اللحم المفروم"
+          "en": "Medium",
+          "ar": "وسط"
         },
-        "description": {
-          "en": "Potato sticks with fresh minced meat and special chili sauce",
-          "ar": "أعواد البطاطا مع اللحم المفروم الطازج وصوص الفلفل الحار الخاص"
-        },
-        "price": 24,
-        "image": "https://menux.app/wp-content/uploads/2024/06/34db2b8a8a75d62026210c01475840e8_w750_h500.jpg",
-        "duration": {
-          "en": "20 Minute",
-          "ar": "20 دقيقة"
-        },
-        "calories": {
-          "en": "N/A",
-          "ar": "غير متوفر"
-        }
+        "price": 35,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/14.%20Medium%20Fattah.png"
       },
       {
         "title": {
-          "en": "Hummus with Meat",
-          "ar": "حمص مع لحم"
+          "en": "Family",
+          "ar": "عائلي"
+        },
+        "price": 65,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/12.%20Small%20Fattah.png"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Soups",
+      "ar": "الشوربات"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "Potato Soup",
+          "ar": "شوربة البطاطس"
         },
         "description": {
-          "en": "Palestinian hummus with fried meat",
-          "ar": "حمص فلسطيني مع لحم مقلي"
+          "en": "Served with a slice of sourdough bread, lemon, and black pepper.",
+          "ar": "تقدم مع قطعة من خبز الساوردو والليمون والفلفل الأسود"
         },
-        "price": 20,
-        "image": "https://menux.app/wp-content/uploads/2024/06/37f707f42eb95053c70e389fbfa5c75e_w750_h500.jpeg",
-        "duration": {
-          "en": "15 Minute",
-          "ar": "15 دقيقة"
-        },
-        "calories": {
-          "en": "N/A",
-          "ar": "غير متوفر"
-        }
+        "price": 11,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
       },
       {
         "title": {
-          "en": "Zucchini Moutabel",
-          "ar": "متبل كوسا"
+          "en": "Pumpkin Soup",
+          "ar": "شوربة القرع"
         },
         "description": {
-          "en": "Zucchini pulp mixed with tahini, garlic, dried mint, lemon, and Parmesan cheese",
-          "ar": "لب الكوسا مع الطحينة والثوم والنعناع المجفف والليمون وجبنة البارميزان"
+          "en": "Served with a slice of sourdough bread, lemon, and black pepper.",
+          "ar": "تقدم مع قطعة من خبز الساوردو والليمون والفلفل الأسود"
         },
-        "price": 25,
-        "image": "https://menux.app/wp-content/uploads/2024/06/1715076370_node.jpg",
-        "duration": {
-          "en": "20 Minute",
-          "ar": "20 دقيقة"
+        "price": 11,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Chef's Salads",
+      "ar": "السلطات الخاصة"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "Make Your Own Salad",
+          "ar": "اصنع سلطتك بنفسك"
         },
-        "calories": {
-          "en": "200 Cal",
-          "ar": "200 سعرة حرارية"
-        }
+        "price": "25 - 70",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Zalatah Salad",
+          "ar": "سلطة زلطه"
+        },
+        "description": {
+          "en": "Lettuce, Arugula, Pomegranate, Carrot, Bell Pepper, Crispy Okra, Roasted Sweet Potatoes, Crunchy Mix, Grilled Chicken, Feta Cheese, Cashews, Zalatah Sauce.",
+          "ar": "خس، جرجير، رمان، جزر، فلفل بارد، بامية مقرمشة، بطاطس حلوة مشوية، كرنشي مكس، دجاج مشوي، جبن فيتا، كاجو، صوص زلطه"
+        },
+        "price": "32 - 88",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Solo Salad",
+          "ar": "سلطة سولو"
+        },
+        "description": {
+          "en": "Lettuce, Red Cabbage, Pomegranate, Carrot, Red Kidney Beans, Cucumber, Roasted Pumpkin, Crunchy Mix, Grilled Chicken, Feta Cheese, Cashews, Zalatah Sauce.",
+          "ar": "خس، ملفوف أحمر، رمان، جزر، فاصولياء حمراء، خيار، قرع مشوي، كرنشي مكس، دجاج مشوي، جبن فيتا، كاجو، صوص زلطه"
+        },
+        "price": "31 - 87",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Keto Salad",
+          "ar": "سلطة الكيتو"
+        },
+        "description": {
+          "en": "Lettuce, Black Olives, Broccoli, Crispy Eggplant, Roasted Pumpkin, Grilled Chicken, Feta Cheese, Flaxseeds, Pumpkin Seeds, Ranch Sauce.",
+          "ar": "خس، زيتون أسود، بروكلي، باذنجان مقرمش، قرع مشوي، دجاج مشوي، جبن فيتا، بذور الكتان، بذور القرع، صوص الرانش"
+        },
+        "price": "31 - 87",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Protein Salad",
+          "ar": "سلطة البروتين"
+        },
+        "description": {
+          "en": "Grilled Chicken x2, Boiled Egg, Lettuce, Potatoes, Broccoli, Roasted Sweet Potatoes, Pumpkin Seeds, Lemon & Olive Oil Sauce, Ranch Sauce.",
+          "ar": "دجاج مشوي (كمية مضاعفة)، بيض مسلوق، خس، بطاطس، بروكلي، بطاطس حلوة مشوية، بذور القرع، صوص الليمون وزيت الزيتون، صوص الرانش"
+        },
+        "price": "36 - 100",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Shrimp Salad",
+          "ar": "سلطة الشرمب"
+        },
+        "description": {
+          "en": "Lettuce, Shrimp, Avocado, Chickpeas, Sumac, Zalatah Sauce, Lemon & Olive Oil Sauce.",
+          "ar": "خس، روبيان، أفوكادو، حبوب الحمص،سماق، صوص زلطه، صوص الليمون وزيت الزيتون"
+        },
+        "price": "36 - 100",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Beets Salad",
+          "ar": "سلطة الشمندر"
+        },
+        "description": {
+          "en": "Fried Beetroot, Crispy Okra, Roasted Cauliflower, Arugula, Broccoli, Grilled Halloumi Cheese, Almonds, Pomegranate Molasses.",
+          "ar": "شمندر مقلي، بامية مقرمشة، زهرة مشوية، جرجير، بروكلي، جبن حلومي مشوي، لوز، دبس الرمان"
+        },
+        "price": "25 - 70",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Grilled Hummus Salad",
+          "ar": "سلطة الحمص المشوي"
+        },
+        "description": {
+          "en": "Lettuce, Cucumber, Cherry Tomatoes, Grilled Chickpeas, Roasted Olives, Feta Cheese, Sriracha Sauce.",
+          "ar": "خس، خيار، طماطم كرزي، حبوب الحمص المشوية، زيتون مشوي، جبن الفيتا، صوص السيراتشا"
+        },
+        "price": "25 - 70",
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Drinks",
+      "ar": "المشروبات"
+    },
+    "products": [
+      {
+        "title": {
+          "en": "Soft Drinks",
+          "ar": "مشروبات غازية"
+        },
+        "price": 3,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
+      },
+      {
+        "title": {
+          "en": "Ice Tea",
+          "ar": "ايس تي"
+        },
+        "price": 4,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/c0087f60cee69b1082cc0ceae94fa57ec3019bcf/FL%20STUDIO%20BN6A0013.jpg"
       }
     ]
   }
