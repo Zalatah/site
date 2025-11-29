@@ -276,11 +276,71 @@
           "ar": "Green Glow"
         },
         "description": {
-          "en": "عصير منعش من خيار وأناناس وليمون.",
-          "ar": "Refreshing juice made from cucumber, pineapple, and lemon."
+          "en": "A natural green juice made from spinach, arugula, kiwi, cucumber, and apple.",
+          "ar": "عصير أخضر طبيعي من سبانخ وجرجير وكيوي وخيار وتفاح."
         },
-        "price": 3,
+        "price": 16,
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Green_Glow.png"
+      },
+      {
+        "title": {
+          "en": "Tropical Fresh",
+          "ar": "Tropical Fresh"
+        },
+        "description": {
+          "en": "Refreshing juice made from cucumber, pineapple, and lemon.",
+          "ar": "عصير منعش من خيار وأناناس وليمون."
+        },
+        "price": 16,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Tropical_Fresh.png"
+      },
+      {
+        "title": {
+          "en": "Orange Juice",
+          "ar": "عصير برتقال"
+        },
+        "description": {
+          "en": "Fresh orange juice.",
+          "ar": "عصير طازج من البرتقال."
+        },
+        "price": 9,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Orange_Juice.png"
+      },
+      {
+        "title": {
+          "en": "Nature Boost",
+          "ar": "Nature Boost"
+        },
+        "description": {
+          "en": "A rich juice made from pomegranate, orange, beetroot, and carrot.",
+          "ar": "عصير غني من رمان وبرتقال وشمندر وجزر."
+        },
+        "price": 16,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Nature_Boost.png"
+      },
+      {
+        "title": {
+          "en": "Ginger Shot",
+          "ar": "Ginger Shot"
+        },
+        "description": {
+          "en": "A light juice made from apple, ginger, and mint.",
+          "ar": "عصير خفيف من تفاح وزنجبيل ونعناع."
+        },
+        "price": 6,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Ginger_Shot.png"
+      },
+      {
+        "title": {
+          "en": "Avocado Shake",
+          "ar": "Avocado Shake"
+        },
+        "description": {
+          "en": "A creamy smoothie made from avocado, banana, milk, and vanilla.",
+          "ar": "سموثي كريمي من أفوكادو وموز وحليب وفانيلا."
+        },
+        "price": 16,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/ِAvocado_Shake.png"
       },
       {
         "title": {
