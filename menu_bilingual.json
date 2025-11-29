@@ -272,6 +272,18 @@
     "products": [
       {
         "title": {
+          "en": "Green Glow",
+          "ar": "Green Glow"
+        },
+        "description": {
+          "en": "عصير منعش من خيار وأناناس وليمون.",
+          "ar": "Refreshing juice made from cucumber, pineapple, and lemon."
+        },
+        "price": 3,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Green_Glow.png"
+      },
+      {
+        "title": {
           "en": "Soft Drinks",
           "ar": "مشروبات غازية"
         },
