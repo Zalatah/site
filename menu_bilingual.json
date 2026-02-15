@@ -261,6 +261,33 @@
         },
         "price": "25 - 70",
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/13.%20Grilled%20Hummus%20Salad.png"
+      },
+      {
+        "title": {
+          "en": "Tropica Salad",
+          "ar": "سلطة تروبيكا"
+        },
+        "description": {
+          "en": "Arugula, orange, pineapple, strawberry, pomegranate, quinoa, chia seeds, Tropica special sauce.",
+          "ar": "جرجير، برتقال، أناناس، فراولة، رمان، كينوا، بذور الشيا، صوص تروبيكا الخاص"
+        },
+        "price": 30,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/15.%20Tropica%20Salad.png",
+        "duration": {
+          "en": "",
+          "ar": ""
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        },
+        "extras": [
+          {
+            "en": "",
+            "ar": "",
+            "price": ""
+          }
+        ]
       }
     ]
   },
