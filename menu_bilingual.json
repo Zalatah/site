@@ -14,7 +14,7 @@
           "en": "Crispy tortilla chips topped with warm, creamy cheese sauce mixed with sweet corn, creating a delicious balance of crunch and smooth flavor.",
           "ar": "رقائق تورتيلا مقرمشة مغطاة بصوص جبن كريمي دافئ، ممزوج بحبات ذرة حلوة تضيف طعماً لذيذاً وتبايناً رائعاً في القوام."
         },
-        "price": 30,
+        "price": 24,
         "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Noodles_Salad.png",
         "duration": {
           "en": "",
@@ -41,8 +41,8 @@
           "en": "Lettuce, Cucumber, Carrot, Cabbage, Corn, Bell Pepper, Noodles, Special Noodle Sauce",
           "ar": "خس، خيار، جزر، ملفوف، ذرة، فلفل بارد، نودلز، صوص النودلز الخاص"
         },
-        "price": 30,
-        "image": "https://github.com/Zalatah/site/blob/main/Noodles_Salad.jpg",
+        "price": 19,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Noodles_Salad.jpg",
         "duration": {
           "en": "",
           "ar": ""
