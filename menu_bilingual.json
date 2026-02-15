@@ -31,7 +31,35 @@
             "price": ""
           }
         ]
+      },
+      {
+        "title": {
+          "en": "Noodles Salad",
+          "ar": "سلطة النودلز"
+        },
+        "description": {
+          "en": "Crispy tortilla chips topped with warm, creamy cheese sauce mixed with sweet corn, creating a delicious balance of crunch and smooth flavor.",
+          "ar": "رقائق تورتيلا مقرمشة مغطاة بصوص جبن كريمي دافئ، ممزوج بحبات ذرة حلوة تضيف طعماً لذيذاً وتبايناً رائعاً في القوام."
+        },
+        "price": 30,
+        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/15.%20Tropica%20Salad.png",
+        "duration": {
+          "en": "",
+          "ar": ""
+        },
+        "calories": {
+          "en": "N/A",
+          "ar": "غير متوفر"
+        },
+        "extras": [
+          {
+            "en": "",
+            "ar": "",
+            "price": ""
+          }
+        ]
       }
+      
     ]
   },
   {
