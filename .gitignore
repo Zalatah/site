@@ -1,2 +1,6 @@
 __pycache__/
 *.py[cod]
+assets/images/products/*-320.webp
+
+# Claude Code
+.claude/
