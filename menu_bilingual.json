@@ -32,7 +32,8 @@
           }
         ],
         "imageSmall": "assets/images/products/corn-nachos-480.webp",
-        "imageLarge": "assets/images/products/corn-nachos-1200.webp"
+        "imageLarge": "assets/images/products/corn-nachos-1200.webp",
+        "imageCard": "assets/images/products/corn-nachos-256.webp"
       },
       {
         "title": {
@@ -61,7 +62,8 @@
           }
         ],
         "imageSmall": "assets/images/products/noodles-salad-480.webp",
-        "imageLarge": "assets/images/products/noodles-salad-1200.webp"
+        "imageLarge": "assets/images/products/noodles-salad-1200.webp",
+        "imageCard": "assets/images/products/noodles-salad-256.webp"
       }
     ]
   },
@@ -85,7 +87,8 @@
         ],
         "image": "assets/images/products/07-feta-sandwich-960.webp",
         "imageSmall": "assets/images/products/07-feta-sandwich-480.webp",
-        "imageLarge": "assets/images/products/07-feta-sandwich-1200.webp"
+        "imageLarge": "assets/images/products/07-feta-sandwich-1200.webp",
+        "imageCard": "assets/images/products/07-feta-sandwich-256.webp"
       },
       {
         "title": {
@@ -101,7 +104,8 @@
         ],
         "image": "assets/images/products/08-halloumi-sandwich-960.webp",
         "imageSmall": "assets/images/products/08-halloumi-sandwich-480.webp",
-        "imageLarge": "assets/images/products/08-halloumi-sandwich-1200.webp"
+        "imageLarge": "assets/images/products/08-halloumi-sandwich-1200.webp",
+        "imageCard": "assets/images/products/08-halloumi-sandwich-256.webp"
       },
       {
         "title": {
@@ -117,7 +121,8 @@
         ],
         "image": "assets/images/products/09-chicken-sandwich-960.webp",
         "imageSmall": "assets/images/products/09-chicken-sandwich-480.webp",
-        "imageLarge": "assets/images/products/09-chicken-sandwich-1200.webp"
+        "imageLarge": "assets/images/products/09-chicken-sandwich-1200.webp",
+        "imageCard": "assets/images/products/09-chicken-sandwich-256.webp"
       }
     ]
   },
@@ -139,7 +144,8 @@
         "price": 15,
         "image": "assets/images/products/12-small-fattah-960.webp",
         "imageSmall": "assets/images/products/12-small-fattah-480.webp",
-        "imageLarge": "assets/images/products/12-small-fattah-1200.webp"
+        "imageLarge": "assets/images/products/12-small-fattah-1200.webp",
+        "imageCard": "assets/images/products/12-small-fattah-256.webp"
       },
       {
         "title": {
@@ -153,7 +159,8 @@
         "price": 35,
         "image": "assets/images/products/14-medium-fattah-960.webp",
         "imageSmall": "assets/images/products/14-medium-fattah-480.webp",
-        "imageLarge": "assets/images/products/14-medium-fattah-1200.webp"
+        "imageLarge": "assets/images/products/14-medium-fattah-1200.webp",
+        "imageCard": "assets/images/products/14-medium-fattah-256.webp"
       },
       {
         "title": {
@@ -167,7 +174,8 @@
         "price": 65,
         "image": "assets/images/products/15-family-fattah-960.webp",
         "imageSmall": "assets/images/products/15-family-fattah-480.webp",
-        "imageLarge": "assets/images/products/15-family-fattah-1200.webp"
+        "imageLarge": "assets/images/products/15-family-fattah-1200.webp",
+        "imageCard": "assets/images/products/15-family-fattah-256.webp"
       }
     ]
   },
@@ -189,7 +197,8 @@
         "price": 11,
         "image": "assets/images/products/10-potato-soup-960.webp",
         "imageSmall": "assets/images/products/10-potato-soup-480.webp",
-        "imageLarge": "assets/images/products/10-potato-soup-1200.webp"
+        "imageLarge": "assets/images/products/10-potato-soup-1200.webp",
+        "imageCard": "assets/images/products/10-potato-soup-256.webp"
       },
       {
         "title": {
@@ -203,7 +212,8 @@
         "price": 11,
         "image": "assets/images/products/11-pumpkin-soup-960.webp",
         "imageSmall": "assets/images/products/11-pumpkin-soup-480.webp",
-        "imageLarge": "assets/images/products/11-pumpkin-soup-1200.webp"
+        "imageLarge": "assets/images/products/11-pumpkin-soup-1200.webp",
+        "imageCard": "assets/images/products/11-pumpkin-soup-256.webp"
       }
     ]
   },
@@ -225,7 +235,8 @@
         "price": "25 - 70",
         "image": "assets/images/products/make-your-own-960.webp",
         "imageSmall": "assets/images/products/make-your-own-480.webp",
-        "imageLarge": "assets/images/products/make-your-own-1200.webp"
+        "imageLarge": "assets/images/products/make-your-own-1200.webp",
+        "imageCard": "assets/images/products/make-your-own-256.webp"
       },
       {
         "title": {
@@ -239,7 +250,8 @@
         "price": "32 - 88",
         "image": "assets/images/products/01-zalatah-salad-960.webp",
         "imageSmall": "assets/images/products/01-zalatah-salad-480.webp",
-        "imageLarge": "assets/images/products/01-zalatah-salad-1200.webp"
+        "imageLarge": "assets/images/products/01-zalatah-salad-1200.webp",
+        "imageCard": "assets/images/products/01-zalatah-salad-256.webp"
       },
       {
         "title": {
@@ -253,7 +265,8 @@
         "price": "31 - 87",
         "image": "assets/images/products/02-solo-salad-960.webp",
         "imageSmall": "assets/images/products/02-solo-salad-480.webp",
-        "imageLarge": "assets/images/products/02-solo-salad-1200.webp"
+        "imageLarge": "assets/images/products/02-solo-salad-1200.webp",
+        "imageCard": "assets/images/products/02-solo-salad-256.webp"
       },
       {
         "title": {
@@ -267,7 +280,8 @@
         "price": "31 - 87",
         "image": "assets/images/products/06-keto-salad-960.webp",
         "imageSmall": "assets/images/products/06-keto-salad-480.webp",
-        "imageLarge": "assets/images/products/06-keto-salad-1200.webp"
+        "imageLarge": "assets/images/products/06-keto-salad-1200.webp",
+        "imageCard": "assets/images/products/06-keto-salad-256.webp"
       },
       {
         "title": {
@@ -281,7 +295,8 @@
         "price": "36 - 100",
         "image": "assets/images/products/05-protein-salad-960.webp",
         "imageSmall": "assets/images/products/05-protein-salad-480.webp",
-        "imageLarge": "assets/images/products/05-protein-salad-1200.webp"
+        "imageLarge": "assets/images/products/05-protein-salad-1200.webp",
+        "imageCard": "assets/images/products/05-protein-salad-256.webp"
       },
       {
         "title": {
@@ -295,7 +310,8 @@
         "price": "38 - 109",
         "image": "assets/images/products/04-shrimp-salad-960.webp",
         "imageSmall": "assets/images/products/04-shrimp-salad-480.webp",
-        "imageLarge": "assets/images/products/04-shrimp-salad-1200.webp"
+        "imageLarge": "assets/images/products/04-shrimp-salad-1200.webp",
+        "imageCard": "assets/images/products/04-shrimp-salad-256.webp"
       },
       {
         "title": {
@@ -309,7 +325,8 @@
         "price": "25 - 70",
         "image": "assets/images/products/03-beets-salad-960.webp",
         "imageSmall": "assets/images/products/03-beets-salad-480.webp",
-        "imageLarge": "assets/images/products/03-beets-salad-1200.webp"
+        "imageLarge": "assets/images/products/03-beets-salad-1200.webp",
+        "imageCard": "assets/images/products/03-beets-salad-256.webp"
       },
       {
         "title": {
@@ -323,7 +340,8 @@
         "price": "25 - 70",
         "image": "assets/images/products/13-grilled-hummus-salad-960.webp",
         "imageSmall": "assets/images/products/13-grilled-hummus-salad-480.webp",
-        "imageLarge": "assets/images/products/13-grilled-hummus-salad-1200.webp"
+        "imageLarge": "assets/images/products/13-grilled-hummus-salad-1200.webp",
+        "imageCard": "assets/images/products/13-grilled-hummus-salad-256.webp"
       },
       {
         "title": {
@@ -352,7 +370,8 @@
           }
         ],
         "imageSmall": "assets/images/products/15-tropica-salad-480.webp",
-        "imageLarge": "assets/images/products/15-tropica-salad-1200.webp"
+        "imageLarge": "assets/images/products/15-tropica-salad-1200.webp",
+        "imageCard": "assets/images/products/15-tropica-salad-256.webp"
       }
     ]
   },
@@ -374,7 +393,8 @@
         "price": 16,
         "image": "assets/images/products/green-glow-960.webp",
         "imageSmall": "assets/images/products/green-glow-480.webp",
-        "imageLarge": "assets/images/products/green-glow-1200.webp"
+        "imageLarge": "assets/images/products/green-glow-1200.webp",
+        "imageCard": "assets/images/products/green-glow-256.webp"
       },
       {
         "title": {
@@ -388,7 +408,8 @@
         "price": 16,
         "image": "assets/images/products/tropical-fresh-960.webp",
         "imageSmall": "assets/images/products/tropical-fresh-480.webp",
-        "imageLarge": "assets/images/products/tropical-fresh-1200.webp"
+        "imageLarge": "assets/images/products/tropical-fresh-1200.webp",
+        "imageCard": "assets/images/products/tropical-fresh-256.webp"
       },
       {
         "title": {
@@ -402,7 +423,8 @@
         "price": 9,
         "image": "assets/images/products/orange-juice-960.webp",
         "imageSmall": "assets/images/products/orange-juice-480.webp",
-        "imageLarge": "assets/images/products/orange-juice-1200.webp"
+        "imageLarge": "assets/images/products/orange-juice-1200.webp",
+        "imageCard": "assets/images/products/orange-juice-256.webp"
       },
       {
         "title": {
@@ -416,7 +438,8 @@
         "price": 16,
         "image": "assets/images/products/nature-boost-960.webp",
         "imageSmall": "assets/images/products/nature-boost-480.webp",
-        "imageLarge": "assets/images/products/nature-boost-1200.webp"
+        "imageLarge": "assets/images/products/nature-boost-1200.webp",
+        "imageCard": "assets/images/products/nature-boost-256.webp"
       },
       {
         "title": {
@@ -430,7 +453,8 @@
         "price": 6,
         "image": "assets/images/products/ginger-shot-960.webp",
         "imageSmall": "assets/images/products/ginger-shot-480.webp",
-        "imageLarge": "assets/images/products/ginger-shot-1200.webp"
+        "imageLarge": "assets/images/products/ginger-shot-1200.webp",
+        "imageCard": "assets/images/products/ginger-shot-256.webp"
       },
       {
         "title": {
@@ -444,7 +468,8 @@
         "price": 16,
         "image": "assets/images/products/avocado-shake-960.webp",
         "imageSmall": "assets/images/products/avocado-shake-480.webp",
-        "imageLarge": "assets/images/products/avocado-shake-1200.webp"
+        "imageLarge": "assets/images/products/avocado-shake-1200.webp",
+        "imageCard": "assets/images/products/avocado-shake-256.webp"
       },
       {
         "title": {
@@ -458,7 +483,8 @@
         "price": 3,
         "image": "assets/images/products/soft-drinks-960.webp",
         "imageSmall": "assets/images/products/soft-drinks-480.webp",
-        "imageLarge": "assets/images/products/soft-drinks-1200.webp"
+        "imageLarge": "assets/images/products/soft-drinks-1200.webp",
+        "imageCard": "assets/images/products/soft-drinks-256.webp"
       },
       {
         "title": {
@@ -472,7 +498,8 @@
         "price": 4,
         "image": "assets/images/products/ice-tea-960.webp",
         "imageSmall": "assets/images/products/ice-tea-480.webp",
-        "imageLarge": "assets/images/products/ice-tea-1200.webp"
+        "imageLarge": "assets/images/products/ice-tea-1200.webp",
+        "imageCard": "assets/images/products/ice-tea-256.webp"
       },
       {
         "title": {
@@ -486,7 +513,8 @@
         "price": 11,
         "image": "assets/images/products/berry-blast-960.webp",
         "imageSmall": "assets/images/products/berry-blast-480.webp",
-        "imageLarge": "assets/images/products/berry-blast-1200.webp"
+        "imageLarge": "assets/images/products/berry-blast-1200.webp",
+        "imageCard": "assets/images/products/berry-blast-256.webp"
       },
       {
         "title": {
@@ -500,7 +528,8 @@
         "price": 11,
         "image": "assets/images/products/pink-lemonade-960.webp",
         "imageSmall": "assets/images/products/pink-lemonade-480.webp",
-        "imageLarge": "assets/images/products/pink-lemonade-1200.webp"
+        "imageLarge": "assets/images/products/pink-lemonade-1200.webp",
+        "imageCard": "assets/images/products/pink-lemonade-256.webp"
       },
       {
         "title": {
@@ -514,7 +543,8 @@
         "price": 1,
         "image": "assets/images/products/water-960.webp",
         "imageSmall": "assets/images/products/water-480.webp",
-        "imageLarge": "assets/images/products/water-1200.webp"
+        "imageLarge": "assets/images/products/water-1200.webp",
+        "imageCard": "assets/images/products/water-256.webp"
       }
     ]
   },
@@ -536,7 +566,8 @@
         "price": 640,
         "image": "assets/images/products/30-960.webp",
         "imageSmall": "assets/images/products/30-480.webp",
-        "imageLarge": "assets/images/products/30-1200.webp"
+        "imageLarge": "assets/images/products/30-1200.webp",
+        "imageCard": "assets/images/products/30-256.webp"
       },
       {
         "title": {
@@ -550,7 +581,8 @@
         "price": 770,
         "image": "assets/images/products/30-960.webp",
         "imageSmall": "assets/images/products/30-480.webp",
-        "imageLarge": "assets/images/products/30-1200.webp"
+        "imageLarge": "assets/images/products/30-1200.webp",
+        "imageCard": "assets/images/products/30-256.webp"
       }
     ]
   }

@@ -7,6 +7,7 @@ const categoriesContainer = document.getElementById("categories");
 const menuStatus = document.getElementById("menu-status");
 const imageDialog = document.getElementById("image-dialog");
 const enlargedImage = document.getElementById("enlarged-image");
+let activeCategoryId = "";
 
 function slugify(value) {
   return String(value)
@@ -76,15 +77,15 @@ function createProductCard(product) {
 
   const image = document.createElement("img");
   image.className = "product-image";
-  image.src = product.image;
+  image.src = product.imageCard || product.imageSmall || product.image;
   image.alt = titleText;
   image.width = 480;
   image.height = 360;
   image.loading = "lazy";
   image.decoding = "async";
 
-  if (product.imageSmall && product.image) {
-    image.srcset = `${product.imageSmall} 480w, ${product.image} 960w`;
+  if (product.imageCard && product.imageSmall && product.image) {
+    image.srcset = `${product.imageCard} 256w, ${product.imageSmall} 480w, ${product.image} 960w`;
     image.sizes = "(max-width: 480px) 122px, 148px";
   }
 
@@ -132,6 +133,11 @@ function createCategorySection(category, index) {
 }
 
 function setActiveCategory(id) {
+  if (id === activeCategoryId) {
+    return;
+  }
+  activeCategoryId = id;
+
   categoryLinks.querySelectorAll(".category-link").forEach((link) => {
     const active = link.getAttribute("href") === `#${id}`;
     link.classList.toggle("is-active", active);

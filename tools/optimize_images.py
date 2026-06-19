@@ -31,6 +31,12 @@ def source_name(url: str) -> str:
     return Path(path).name
 
 
+def product_stem(image_path: str) -> str:
+    stem = Path(source_name(image_path)).stem
+    stem = re.sub(r"(?:-(?:256|320|480|960|1200))+$", "", stem)
+    return slugify(stem)
+
+
 def fit_width(image: Image.Image, width: int) -> Image.Image:
     target_width = min(width, image.width)
     if target_width == image.width:
@@ -63,31 +69,38 @@ def archive_top_level_images() -> None:
 def optimize_brand_assets() -> None:
     save_webp(SOURCE_DIR / "cover.png", IMAGE_DIR / "cover-720.webp", 720, 80)
     save_webp(SOURCE_DIR / "cover.png", IMAGE_DIR / "cover-1200.webp", 1200, 82)
-    save_webp(SOURCE_DIR / "zalatah_logo.png", IMAGE_DIR / "logo.webp", 378, 82)
+    save_webp(SOURCE_DIR / "zalatah_logo.png", IMAGE_DIR / "logo-164.webp", 164, 74)
     shutil.copy2(SOURCE_DIR / "Zalatah Fav.png", IMAGE_DIR / "favicon.png")
 
 
 def optimize_products() -> None:
     menu = json.loads(MENU_PATH.read_text(encoding="utf-8"))
     generated: set[str] = set()
+    source_by_stem = {
+        slugify(path.stem): path
+        for path in SOURCE_DIR.iterdir()
+        if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
+    }
 
     for category in menu:
         for product in category.get("products", []):
-            filename = source_name(product.get("image", ""))
-            stem = slugify(Path(filename).stem)
-            source = SOURCE_DIR / filename
+            stem = product_stem(product.get("image", ""))
+            source = source_by_stem.get(stem)
 
             small = f"assets/images/products/{stem}-480.webp"
+            card = f"assets/images/products/{stem}-256.webp"
             medium = f"assets/images/products/{stem}-960.webp"
             large = f"assets/images/products/{stem}-1200.webp"
+            product["imageCard"] = card
             product["imageSmall"] = small
             product["image"] = medium
             product["imageLarge"] = large
 
-            if not source.exists() or stem in generated:
+            if source is None or stem in generated:
                 continue
 
-            save_webp(source, ROOT / small, 480, 76)
+            save_webp(source, ROOT / card, 256, 64)
+            save_webp(source, ROOT / small, 480, 74)
             save_webp(source, ROOT / medium, 960, 78)
             save_webp(source, ROOT / large, 1200, 80)
             generated.add(stem)

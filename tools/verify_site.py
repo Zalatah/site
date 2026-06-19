@@ -28,6 +28,16 @@ BANNED_RUNTIME_MARKERS = {
     "shortpixel",
     "raw.githubusercontent.com",
     "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+}
+LAYOUT_READ_MARKERS = {
+    "getBoundingClientRect",
+    "getComputedStyle",
+    "offsetHeight",
+    "offsetWidth",
+    "scrollHeight",
+    "scrollWidth",
 }
 
 
@@ -55,6 +65,15 @@ def main() -> None:
         if marker.lower() in combined_runtime.lower():
             fail(f"banned runtime dependency marker remains: {marker}")
 
+    if 'rel="preload"\n      href="styles.css"\n      as="style"' not in html:
+        fail("main stylesheet is not loaded through a non-blocking preload")
+    if "this.rel='stylesheet'" not in html:
+        fail("preloaded stylesheet does not promote itself after loading")
+
+    for marker in LAYOUT_READ_MARKERS:
+        if marker in app:
+            fail(f"layout-sensitive JavaScript read remains: {marker}")
+
     external_urls = re.findall(r'https://([^/"\s]+)', combined_runtime)
     unknown_hosts = sorted(set(external_urls) - ALLOWED_EXTERNAL_HOSTS)
     if unknown_hosts:
@@ -62,7 +81,7 @@ def main() -> None:
 
     missing_products: set[str] = set()
     for product in products:
-        for field in ("imageSmall", "image", "imageLarge"):
+        for field in ("imageCard", "imageSmall", "image", "imageLarge"):
             relative_path = product.get(field)
             if not relative_path:
                 fail(f"{product['title']['en']} is missing {field}")
@@ -82,7 +101,7 @@ def main() -> None:
         "assets/fonts/saudi-riyal.woff2",
         "assets/images/cover-720.webp",
         "assets/images/cover-1200.webp",
-        "assets/images/logo.webp",
+        "assets/images/logo-164.webp",
         "assets/images/favicon.png",
     }
     missing_required = sorted(path for path in required_local_files if not (ROOT / path).exists())
@@ -92,12 +111,19 @@ def main() -> None:
     runtime_images = list((ROOT / "assets" / "images").rglob("*"))
     runtime_bytes = sum(path.stat().st_size for path in runtime_images if path.is_file())
     source_bytes = sum(path.stat().st_size for path in (ROOT / "assets" / "source").iterdir() if path.is_file())
+    card_images = list((ROOT / "assets" / "images" / "products").glob("*-256.webp"))
+    card_bytes = sum(path.stat().st_size for path in card_images)
+    if len(card_images) != 29:
+        fail(f"expected 29 optimized card images, found {len(card_images)}")
+    if card_bytes > 200_000:
+        fail(f"optimized card images exceed 200 KB: {card_bytes}")
 
     print("PASS")
     print(f"categories={len(menu)}")
     print(f"products={len(products)}")
     print(f"intentional_missing_products={len(missing_products)}")
     print(f"runtime_image_bytes={runtime_bytes}")
+    print(f"card_image_bytes={card_bytes}")
     print(f"archived_source_bytes={source_bytes}")
 
 

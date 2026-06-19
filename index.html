@@ -11,13 +11,44 @@
     <title>Zalatah - زلطه</title>
 
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="preload"
+      href="assets/fonts/saudi-riyal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     >
-    <link rel="stylesheet" href="styles.css">
+    <style>
+      :root{--brand:#e60040;--ink:#171717;--muted:#707070;--line:#ececec;--surface:#fff;--page:#f5f5f5}
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth;scroll-padding-top:84px}
+      body{min-width:320px;margin:0;background:var(--page);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif;text-align:right;-webkit-font-smoothing:antialiased}
+      button,a{font:inherit}a{color:inherit}button{color:inherit}img,svg{display:block}
+      .site-shell{width:min(100%,768px);min-height:100vh;margin-inline:auto;background:var(--surface)}
+      .site-header{display:flex;width:100%;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line);background:var(--surface)}
+      .icon-button{display:grid;width:42px;height:42px;padding:0;place-items:center;border:0;border-radius:12px;background:#292929;color:#fff}
+      .icon-button svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+      .loyalty-link{min-height:38px;padding:8px 14px;border-radius:9px;background:var(--brand);color:#fff;font-size:13px;font-weight:700;text-decoration:none}
+      .brand-hero{padding:16px}
+      .cover-picture{display:block;overflow:hidden;aspect-ratio:570/266;border-radius:16px;background:#dedede}
+      .cover-image{width:100%;height:100%;object-fit:cover}
+      .brand-summary{display:flex;align-items:center;gap:14px;padding:14px 8px 0}
+      .brand-logo{width:82px;height:65px;object-fit:contain}
+      .brand-summary h1,.brand-summary p{margin:0}
+      .brand-summary h1{color:var(--brand);font-size:24px;line-height:1.25}
+      .brand-summary p{margin-top:3px;color:var(--muted);font-size:14px;font-weight:500}
+      .category-nav{position:sticky;z-index:4;top:0;border-block:1px solid var(--line);background:#fff}
+      .category-links{display:flex;gap:8px;overflow-x:auto;padding:12px 16px;scrollbar-width:none}
+      .category-skeleton{width:94px;height:38px;flex:0 0 auto;border-radius:999px;background:#eee}
+      @media(max-width:480px){.site-header,.brand-hero{padding:12px}.brand-summary{padding-inline:4px}}
+    </style>
+    <link
+      rel="preload"
+      href="styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
 
     <script
       async
@@ -76,7 +107,7 @@
           <div class="brand-summary">
             <img
               class="brand-logo"
-              src="assets/images/logo.webp"
+              src="assets/images/logo-164.webp"
               alt="شعار زلطه"
               width="126"
               height="100"
