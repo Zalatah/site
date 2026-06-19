@@ -1,0 +1,38 @@
+# Zalatah | زلطه
+
+> Zalatah is a Saudi restaurant offering salads and more. This website is the official bilingual digital menu, with Arabic as the primary language and English translations available in the structured menu data.
+
+Important information:
+
+- All displayed prices are in Saudi riyals (SAR) and may change.
+- The current menu contains 32 items across 7 categories.
+- Treat `menu_bilingual.json` as the canonical machine-readable source for menu names, descriptions, prices, categories, and image references.
+- Do not infer item availability, ingredients, nutrition, calories, allergens, or dietary suitability unless the website explicitly provides that information.
+- The website currently presents menu and restaurant information; it does not provide native online ordering.
+
+## Primary Resources
+
+- [Official digital menu](/): Public Arabic-first restaurant menu.
+- [Structured bilingual menu data](/menu_bilingual.json): Canonical JSON data for categories, products, descriptions, and prices.
+- [Crawler permissions](/robots.txt): Crawling policy for this website.
+
+## Menu Sections
+
+- [New items](/#category-new): Recently added menu items.
+- [Sandwiches](/#category-sandwiches): Sourdough sandwiches.
+- [Fattah](/#category-fattah): Small, medium, and family-size fattah.
+- [Soups](/#category-soups): Available soup selections.
+- [Chef's salads](/#category-chef-s-salads): Signature salads and build-your-own salad options.
+- [Drinks](/#category-drinks): Juices, shakes, soft drinks, tea, lemonade, and water.
+- [Subscriptions](/#category-subscriptions): Multi-salad subscription packages.
+
+## Restaurant Links
+
+- [Google Maps location](https://maps.app.goo.gl/7dKvsMDUiWVv3CRk6): Restaurant location and directions.
+- [Instagram](https://www.instagram.com/zalatah.sa/): Official Zalatah Instagram account.
+- [TikTok](https://tiktok.com/@zalatah.sa/): Official Zalatah TikTok account.
+- [WhatsApp](https://wa.me/966550035976): Official restaurant WhatsApp contact.
+
+## Optional
+
+- [Loyalty program](https://www.pass2u.net/p/E6hWndZ3ewzW?openExternalBrowser=1): External Zalatah loyalty pass.
