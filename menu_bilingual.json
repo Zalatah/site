@@ -15,7 +15,7 @@
           "ar": "رقائق تورتيلا مقرمشة مغطاة بصوص جبن كريمي دافئ، ممزوج بحبات ذرة حلوة تضيف طعماً لذيذاً وتبايناً رائعاً في القوام."
         },
         "price": 24,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Corn_Nachos.jpg",
+        "image": "assets/images/products/corn-nachos-960.webp",
         "duration": {
           "en": "",
           "ar": ""
@@ -30,7 +30,9 @@
             "ar": "",
             "price": ""
           }
-        ]
+        ],
+        "imageSmall": "assets/images/products/corn-nachos-480.webp",
+        "imageLarge": "assets/images/products/corn-nachos-1200.webp"
       },
       {
         "title": {
@@ -42,7 +44,7 @@
           "ar": "خس، خيار، جزر، ملفوف، ذرة، فلفل بارد، نودلز، صوص النودلز الخاص"
         },
         "price": 19,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Noodles_Salad.jpg",
+        "image": "assets/images/products/noodles-salad-960.webp",
         "duration": {
           "en": "",
           "ar": ""
@@ -57,9 +59,10 @@
             "ar": "",
             "price": ""
           }
-        ]
+        ],
+        "imageSmall": "assets/images/products/noodles-salad-480.webp",
+        "imageLarge": "assets/images/products/noodles-salad-1200.webp"
       }
-      
     ]
   },
   {
@@ -80,7 +83,9 @@
         "price": [
           22
         ],
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/07.%20Feta%20Sandwich.png"
+        "image": "assets/images/products/07-feta-sandwich-960.webp",
+        "imageSmall": "assets/images/products/07-feta-sandwich-480.webp",
+        "imageLarge": "assets/images/products/07-feta-sandwich-1200.webp"
       },
       {
         "title": {
@@ -94,7 +99,9 @@
         "price": [
           22
         ],
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/08.%20Halloumi%20Sandwich.png"
+        "image": "assets/images/products/08-halloumi-sandwich-960.webp",
+        "imageSmall": "assets/images/products/08-halloumi-sandwich-480.webp",
+        "imageLarge": "assets/images/products/08-halloumi-sandwich-1200.webp"
       },
       {
         "title": {
@@ -108,7 +115,9 @@
         "price": [
           22
         ],
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/09.%20Chicken%20Sandwich.png"
+        "image": "assets/images/products/09-chicken-sandwich-960.webp",
+        "imageSmall": "assets/images/products/09-chicken-sandwich-480.webp",
+        "imageLarge": "assets/images/products/09-chicken-sandwich-1200.webp"
       }
     ]
   },
@@ -128,7 +137,9 @@
           "ar": "صغير"
         },
         "price": 15,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/12.%20Small%20Fattah.png"
+        "image": "assets/images/products/12-small-fattah-960.webp",
+        "imageSmall": "assets/images/products/12-small-fattah-480.webp",
+        "imageLarge": "assets/images/products/12-small-fattah-1200.webp"
       },
       {
         "title": {
@@ -140,7 +151,9 @@
           "ar": "وسط"
         },
         "price": 35,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/14.%20Medium%20Fattah.png"
+        "image": "assets/images/products/14-medium-fattah-960.webp",
+        "imageSmall": "assets/images/products/14-medium-fattah-480.webp",
+        "imageLarge": "assets/images/products/14-medium-fattah-1200.webp"
       },
       {
         "title": {
@@ -152,7 +165,9 @@
           "ar": "عائلي"
         },
         "price": 65,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/15.%20Family%20Fattah.JPG"
+        "image": "assets/images/products/15-family-fattah-960.webp",
+        "imageSmall": "assets/images/products/15-family-fattah-480.webp",
+        "imageLarge": "assets/images/products/15-family-fattah-1200.webp"
       }
     ]
   },
@@ -172,7 +187,9 @@
           "ar": "تقدم مع قطعة من خبز الساوردو والليمون والفلفل الأسود"
         },
         "price": 11,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/10.%20Potato%20Soup.png"
+        "image": "assets/images/products/10-potato-soup-960.webp",
+        "imageSmall": "assets/images/products/10-potato-soup-480.webp",
+        "imageLarge": "assets/images/products/10-potato-soup-1200.webp"
       },
       {
         "title": {
@@ -184,7 +201,9 @@
           "ar": "تقدم مع قطعة من خبز الساوردو والليمون والفلفل الأسود"
         },
         "price": 11,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/11.%20Pumpkin%20Soup.png"
+        "image": "assets/images/products/11-pumpkin-soup-960.webp",
+        "imageSmall": "assets/images/products/11-pumpkin-soup-480.webp",
+        "imageLarge": "assets/images/products/11-pumpkin-soup-1200.webp"
       }
     ]
   },
@@ -204,7 +223,9 @@
           "ar": "اصنع سلطتك بنفسك"
         },
         "price": "25 - 70",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Make%20Your%20Own.jpg"
+        "image": "assets/images/products/make-your-own-960.webp",
+        "imageSmall": "assets/images/products/make-your-own-480.webp",
+        "imageLarge": "assets/images/products/make-your-own-1200.webp"
       },
       {
         "title": {
@@ -216,7 +237,9 @@
           "ar": "خس، جرجير، رمان، جزر، فلفل بارد، بامية مقرمشة، بطاطس حلوة مشوية، كرنشي مكس، دجاج مشوي، جبن فيتا، كاجو، صوص زلطه"
         },
         "price": "32 - 88",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/01.%20Zalatah%20Salad.png"
+        "image": "assets/images/products/01-zalatah-salad-960.webp",
+        "imageSmall": "assets/images/products/01-zalatah-salad-480.webp",
+        "imageLarge": "assets/images/products/01-zalatah-salad-1200.webp"
       },
       {
         "title": {
@@ -228,7 +251,9 @@
           "ar": "خس، ملفوف أحمر، رمان، جزر، فاصولياء حمراء، خيار، قرع مشوي، كرنشي مكس، دجاج مشوي، جبن فيتا، كاجو، صوص زلطه"
         },
         "price": "31 - 87",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/02.%20Solo%20Salad.png"
+        "image": "assets/images/products/02-solo-salad-960.webp",
+        "imageSmall": "assets/images/products/02-solo-salad-480.webp",
+        "imageLarge": "assets/images/products/02-solo-salad-1200.webp"
       },
       {
         "title": {
@@ -240,7 +265,9 @@
           "ar": "خس، زيتون أسود، بروكلي، باذنجان مقرمش، قرع مشوي، دجاج مشوي، جبن فيتا، بذور الكتان، بذور القرع، صوص الرانش"
         },
         "price": "31 - 87",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/06.%20Keto%20Salad.png"
+        "image": "assets/images/products/06-keto-salad-960.webp",
+        "imageSmall": "assets/images/products/06-keto-salad-480.webp",
+        "imageLarge": "assets/images/products/06-keto-salad-1200.webp"
       },
       {
         "title": {
@@ -252,7 +279,9 @@
           "ar": "دجاج مشوي (كمية مضاعفة)، بيض مسلوق، خس، بطاطس، بروكلي، بطاطس حلوة مشوية، بذور القرع، صوص الليمون وزيت الزيتون، صوص الرانش"
         },
         "price": "36 - 100",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/05.%20Protein%20Salad.png"
+        "image": "assets/images/products/05-protein-salad-960.webp",
+        "imageSmall": "assets/images/products/05-protein-salad-480.webp",
+        "imageLarge": "assets/images/products/05-protein-salad-1200.webp"
       },
       {
         "title": {
@@ -264,7 +293,9 @@
           "ar": "خس، روبيان، أفوكادو، حبوب الحمص،سماق، صوص زلطه، صوص الليمون وزيت الزيتون"
         },
         "price": "38 - 109",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/04.%20Shrimp%20Salad.png"
+        "image": "assets/images/products/04-shrimp-salad-960.webp",
+        "imageSmall": "assets/images/products/04-shrimp-salad-480.webp",
+        "imageLarge": "assets/images/products/04-shrimp-salad-1200.webp"
       },
       {
         "title": {
@@ -276,7 +307,9 @@
           "ar": "شمندر مقلي، بامية مقرمشة، زهرة مشوية، جرجير، بروكلي، جبن حلومي مشوي، لوز، دبس الرمان"
         },
         "price": "25 - 70",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/03.%20Beets%20Salad.png"
+        "image": "assets/images/products/03-beets-salad-960.webp",
+        "imageSmall": "assets/images/products/03-beets-salad-480.webp",
+        "imageLarge": "assets/images/products/03-beets-salad-1200.webp"
       },
       {
         "title": {
@@ -288,7 +321,9 @@
           "ar": "خس، خيار، طماطم كرزي، حبوب الحمص المشوية، زيتون مشوي، جبن الفيتا، صوص السيراتشا"
         },
         "price": "25 - 70",
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/13.%20Grilled%20Hummus%20Salad.png"
+        "image": "assets/images/products/13-grilled-hummus-salad-960.webp",
+        "imageSmall": "assets/images/products/13-grilled-hummus-salad-480.webp",
+        "imageLarge": "assets/images/products/13-grilled-hummus-salad-1200.webp"
       },
       {
         "title": {
@@ -300,7 +335,7 @@
           "ar": "جرجير، برتقال، أناناس، فراولة، رمان، كينوا، بذور الشيا، صوص تروبيكا الخاص"
         },
         "price": 30,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/15.%20Tropica%20Salad.png",
+        "image": "assets/images/products/15-tropica-salad-960.webp",
         "duration": {
           "en": "",
           "ar": ""
@@ -315,7 +350,9 @@
             "ar": "",
             "price": ""
           }
-        ]
+        ],
+        "imageSmall": "assets/images/products/15-tropica-salad-480.webp",
+        "imageLarge": "assets/images/products/15-tropica-salad-1200.webp"
       }
     ]
   },
@@ -335,7 +372,9 @@
           "ar": "عصير أخضر طبيعي من سبانخ وجرجير وكيوي وخيار وتفاح."
         },
         "price": 16,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Green_Glow.png"
+        "image": "assets/images/products/green-glow-960.webp",
+        "imageSmall": "assets/images/products/green-glow-480.webp",
+        "imageLarge": "assets/images/products/green-glow-1200.webp"
       },
       {
         "title": {
@@ -347,7 +386,9 @@
           "ar": "عصير منعش من خيار وأناناس وليمون."
         },
         "price": 16,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Tropical_Fresh.png"
+        "image": "assets/images/products/tropical-fresh-960.webp",
+        "imageSmall": "assets/images/products/tropical-fresh-480.webp",
+        "imageLarge": "assets/images/products/tropical-fresh-1200.webp"
       },
       {
         "title": {
@@ -359,7 +400,9 @@
           "ar": "عصير طازج من البرتقال."
         },
         "price": 9,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Orange_Juice.png"
+        "image": "assets/images/products/orange-juice-960.webp",
+        "imageSmall": "assets/images/products/orange-juice-480.webp",
+        "imageLarge": "assets/images/products/orange-juice-1200.webp"
       },
       {
         "title": {
@@ -371,7 +414,9 @@
           "ar": "عصير غني من رمان وبرتقال وشمندر وجزر."
         },
         "price": 16,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Nature_Boost.png"
+        "image": "assets/images/products/nature-boost-960.webp",
+        "imageSmall": "assets/images/products/nature-boost-480.webp",
+        "imageLarge": "assets/images/products/nature-boost-1200.webp"
       },
       {
         "title": {
@@ -383,7 +428,9 @@
           "ar": "عصير خفيف من تفاح وزنجبيل ونعناع."
         },
         "price": 6,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Ginger_Shot.png"
+        "image": "assets/images/products/ginger-shot-960.webp",
+        "imageSmall": "assets/images/products/ginger-shot-480.webp",
+        "imageLarge": "assets/images/products/ginger-shot-1200.webp"
       },
       {
         "title": {
@@ -395,7 +442,9 @@
           "ar": "سموثي كريمي من أفوكادو وموز وحليب وفانيلا."
         },
         "price": 16,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/ِAvocado_Shake.png"
+        "image": "assets/images/products/avocado-shake-960.webp",
+        "imageSmall": "assets/images/products/avocado-shake-480.webp",
+        "imageLarge": "assets/images/products/avocado-shake-1200.webp"
       },
       {
         "title": {
@@ -407,7 +456,9 @@
           "ar": "مشروبات غازية"
         },
         "price": 3,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Soft%20Drinks.png"
+        "image": "assets/images/products/soft-drinks-960.webp",
+        "imageSmall": "assets/images/products/soft-drinks-480.webp",
+        "imageLarge": "assets/images/products/soft-drinks-1200.webp"
       },
       {
         "title": {
@@ -419,7 +470,9 @@
           "ar": "ايس تي"
         },
         "price": 4,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Ice%20Tea.jpg"
+        "image": "assets/images/products/ice-tea-960.webp",
+        "imageSmall": "assets/images/products/ice-tea-480.webp",
+        "imageLarge": "assets/images/products/ice-tea-1200.webp"
       },
       {
         "title": {
@@ -431,7 +484,9 @@
           "ar": "بيري بلاست"
         },
         "price": 11,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Berry%20Blast.png"
+        "image": "assets/images/products/berry-blast-960.webp",
+        "imageSmall": "assets/images/products/berry-blast-480.webp",
+        "imageLarge": "assets/images/products/berry-blast-1200.webp"
       },
       {
         "title": {
@@ -443,7 +498,9 @@
           "ar": "بينك ليمونيد"
         },
         "price": 11,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Pink%20Lemonade.png"
+        "image": "assets/images/products/pink-lemonade-960.webp",
+        "imageSmall": "assets/images/products/pink-lemonade-480.webp",
+        "imageLarge": "assets/images/products/pink-lemonade-1200.webp"
       },
       {
         "title": {
@@ -455,7 +512,9 @@
           "ar": "ماء"
         },
         "price": 1,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/Water.webp"
+        "image": "assets/images/products/water-960.webp",
+        "imageSmall": "assets/images/products/water-480.webp",
+        "imageLarge": "assets/images/products/water-1200.webp"
       }
     ]
   },
@@ -475,7 +534,9 @@
           "ar": "30 سلطة من سلطات اصنع بنفسك"
         },
         "price": 640,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/30.png"
+        "image": "assets/images/products/30-960.webp",
+        "imageSmall": "assets/images/products/30-480.webp",
+        "imageLarge": "assets/images/products/30-1200.webp"
       },
       {
         "title": {
@@ -487,7 +548,9 @@
           "ar": "30 سلطة من سلطات اصنع بنفسك، مع خيار البروتين المفضل لك، دجاج أو تونة"
         },
         "price": 770,
-        "image": "https://raw.githubusercontent.com/Zalatah/site/refs/heads/main/30.png"
+        "image": "assets/images/products/30-960.webp",
+        "imageSmall": "assets/images/products/30-480.webp",
+        "imageLarge": "assets/images/products/30-1200.webp"
       }
     ]
   }
