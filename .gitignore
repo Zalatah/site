@@ -5,3 +5,11 @@ assets/images/products/*-320.webp
 # Claude Code
 .claude/
 
+# Internal planning and agent context — not for version control
+docs/
+CLAUDE.md
+PRODUCT_ROADMAP.md
+PRODUCT_ROADMAP_v2.md
+PRODUCT_ROADMAP_v3.md
+PRODUCT_ROADMAP_v4.md
+llms.txt
