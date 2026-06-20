@@ -5,5 +5,3 @@ assets/images/products/*-320.webp
 # Claude Code
 .claude/
 
-# Product plan files
-PRODUCT_ROADMAP*.md
