@@ -1,5 +1,9 @@
 # Agent Context — Zalatah Restaurant SaaS
 
+**Repository:** `Zalatah/site` (github.com/Zalatah/site)
+**Working directory:** repo root — all commands run from here, not from a subdirectory.
+**Next.js initialisation:** use `.` as the target directory (`pnpm create next-app@latest .`) so the app is created in the repo root, not a subfolder.
+
 You are building a multi-tenant restaurant SaaS platform for the Saudi Arabian market. Read the following files before making any decisions:
 
 - `docs/AGENTS.md` — your governance contract; rules you must not violate
