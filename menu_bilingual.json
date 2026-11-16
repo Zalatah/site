@@ -232,7 +232,11 @@
           "en": "Make Your Own Salad",
           "ar": "اصنع سلطتك بنفسك"
         },
-        "price": "25 - 70",
+        "price": [
+          23,
+          25,
+          70
+        ],
         "image": "assets/images/products/make-your-own-960.webp",
         "imageSmall": "assets/images/products/make-your-own-480.webp",
         "imageLarge": "assets/images/products/make-your-own-1200.webp",
