@@ -247,7 +247,11 @@
           "en": "Lettuce, Arugula, Pomegranate, Carrot, Bell Pepper, Crispy Okra, Roasted Sweet Potatoes, Crunchy Mix, Grilled Chicken, Feta Cheese, Cashews, Zalatah Sauce.",
           "ar": "خس، جرجير، رمان، جزر، فلفل بارد، بامية مقرمشة، بطاطس حلوة مشوية، كرنشي مكس، دجاج مشوي، جبن فيتا، كاجو، صوص زلطه"
         },
-        "price": "32 - 88",
+        "price": [
+          29,
+          32,
+          88
+        ],
         "image": "assets/images/products/01-zalatah-salad-960.webp",
         "imageSmall": "assets/images/products/01-zalatah-salad-480.webp",
         "imageLarge": "assets/images/products/01-zalatah-salad-1200.webp",
@@ -262,7 +266,11 @@
           "en": "Lettuce, Red Cabbage, Pomegranate, Carrot, Red Kidney Beans, Cucumber, Roasted Pumpkin, Crunchy Mix, Grilled Chicken, Feta Cheese, Cashews, Zalatah Sauce.",
           "ar": "خس، ملفوف أحمر، رمان، جزر، فاصولياء حمراء، خيار، قرع مشوي، كرنشي مكس، دجاج مشوي، جبن فيتا، كاجو، صوص زلطه"
         },
-        "price": "31 - 87",
+        "price": [
+          28,
+          31,
+          87
+        ],
         "image": "assets/images/products/02-solo-salad-960.webp",
         "imageSmall": "assets/images/products/02-solo-salad-480.webp",
         "imageLarge": "assets/images/products/02-solo-salad-1200.webp",
@@ -277,7 +285,11 @@
           "en": "Lettuce, Black Olives, Broccoli, Crispy Eggplant, Roasted Pumpkin, Grilled Chicken, Feta Cheese, Flaxseeds, Pumpkin Seeds, Ranch Sauce.",
           "ar": "خس، زيتون أسود، بروكلي، باذنجان مقرمش، قرع مشوي، دجاج مشوي، جبن فيتا، بذور الكتان، بذور القرع، صوص الرانش"
         },
-        "price": "31 - 87",
+        "price": [
+          28,
+          31,
+          87
+        ],
         "image": "assets/images/products/06-keto-salad-960.webp",
         "imageSmall": "assets/images/products/06-keto-salad-480.webp",
         "imageLarge": "assets/images/products/06-keto-salad-1200.webp",
@@ -292,7 +304,11 @@
           "en": "Grilled Chicken x2, Boiled Egg, Lettuce, Potatoes, Broccoli, Roasted Sweet Potatoes, Pumpkin Seeds, Lemon & Olive Oil Sauce, Ranch Sauce.",
           "ar": "دجاج مشوي (كمية مضاعفة)، بيض مسلوق، خس، بطاطس، بروكلي، بطاطس حلوة مشوية، بذور القرع، صوص الليمون وزيت الزيتون، صوص الرانش"
         },
-        "price": "36 - 100",
+        "price": [
+          33,
+          36,
+          100
+        ],
         "image": "assets/images/products/05-protein-salad-960.webp",
         "imageSmall": "assets/images/products/05-protein-salad-480.webp",
         "imageLarge": "assets/images/products/05-protein-salad-1200.webp",
@@ -307,7 +323,11 @@
           "en": "Lettuce, Shrimp, Avocado, Chickpeas, Sumac, Zalatah Sauce, Lemon & Olive Oil Sauce.",
           "ar": "خس، روبيان، أفوكادو، حبوب الحمص،سماق، صوص زلطه، صوص الليمون وزيت الزيتون"
         },
-        "price": "38 - 109",
+        "price": [
+          34,
+          38,
+          109
+        ],
         "image": "assets/images/products/04-shrimp-salad-960.webp",
         "imageSmall": "assets/images/products/04-shrimp-salad-480.webp",
         "imageLarge": "assets/images/products/04-shrimp-salad-1200.webp",
@@ -322,7 +342,11 @@
           "en": "Fried Beetroot, Crispy Okra, Roasted Cauliflower, Arugula, Broccoli, Grilled Halloumi Cheese, Almonds, Pomegranate Molasses.",
           "ar": "شمندر مقلي، بامية مقرمشة، زهرة مشوية، جرجير، بروكلي، جبن حلومي مشوي، لوز، دبس الرمان"
         },
-        "price": "25 - 70",
+        "price": [
+          23,
+          25,
+          70
+        ],
         "image": "assets/images/products/03-beets-salad-960.webp",
         "imageSmall": "assets/images/products/03-beets-salad-480.webp",
         "imageLarge": "assets/images/products/03-beets-salad-1200.webp",
@@ -337,7 +361,11 @@
           "en": "Lettuce, Cucumber, Cherry Tomatoes, Grilled Chickpeas, Roasted Olives, Feta Cheese, Sriracha Sauce.",
           "ar": "خس، خيار، طماطم كرزي، حبوب الحمص المشوية، زيتون مشوي، جبن الفيتا، صوص السيراتشا"
         },
-        "price": "25 - 70",
+        "price": [
+          23,
+          25,
+          70
+        ],
         "image": "assets/images/products/13-grilled-hummus-salad-960.webp",
         "imageSmall": "assets/images/products/13-grilled-hummus-salad-480.webp",
         "imageLarge": "assets/images/products/13-grilled-hummus-salad-1200.webp",
@@ -352,7 +380,10 @@
           "en": "Arugula, orange, pineapple, strawberry, pomegranate, quinoa, chia seeds, Tropica special sauce.",
           "ar": "جرجير، برتقال، أناناس، فراولة، رمان، كينوا، بذور الشيا، صوص تروبيكا الخاص"
         },
-        "price": 30,
+        "price": [
+          27,
+          30
+        ],
         "image": "assets/images/products/15-tropica-salad-960.webp",
         "duration": {
           "en": "",
