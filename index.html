@@ -217,16 +217,27 @@
       </div>
     </dialog>
 
-    <dialog id="image-dialog" class="image-dialog" aria-labelledby="image-dialog-title">
-      <div class="image-dialog-card">
-        <h2 id="image-dialog-title" class="visually-hidden">صورة المنتج</h2>
-        <button class="image-dialog-close" type="button" data-close-dialog aria-label="إغلاق الصورة">
+    <dialog
+      id="product-dialog"
+      class="product-dialog"
+      aria-labelledby="product-dialog-title"
+      aria-describedby="product-dialog-description"
+    >
+      <article class="product-dialog-card">
+        <button class="product-dialog-close" type="button" data-close-dialog aria-label="إغلاق تفاصيل المنتج">
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <path d="m6 6 12 12M18 6 6 18"></path>
           </svg>
         </button>
-        <img id="enlarged-image" src="" alt="">
-      </div>
+        <div class="product-dialog-media">
+          <img id="product-dialog-image" src="" alt="">
+        </div>
+        <div class="product-dialog-content">
+          <h2 id="product-dialog-title"></h2>
+          <p id="product-dialog-description"></p>
+          <div id="product-dialog-price" class="product-price product-dialog-price"></div>
+        </div>
+      </article>
     </dialog>
   </body>
 </html>

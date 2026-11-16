@@ -5,8 +5,11 @@ const LANGUAGE = document.documentElement.dir === "rtl" ? "ar" : "en";
 const categoryLinks = document.getElementById("category-links");
 const categoriesContainer = document.getElementById("categories");
 const menuStatus = document.getElementById("menu-status");
-const imageDialog = document.getElementById("image-dialog");
-const enlargedImage = document.getElementById("enlarged-image");
+const productDialog = document.getElementById("product-dialog");
+const productDialogImage = document.getElementById("product-dialog-image");
+const productDialogTitle = document.getElementById("product-dialog-title");
+const productDialogDescription = document.getElementById("product-dialog-description");
+const productDialogPrice = document.getElementById("product-dialog-price");
 let activeCategoryId = "";
 
 function slugify(value) {
@@ -57,7 +60,7 @@ function createProductCard(product) {
 
   const titleText = localized(product, "title");
   const descriptionText = localized(product, "description");
-  button.setAttribute("aria-label", `عرض صورة ${titleText}`);
+  button.setAttribute("aria-label", `عرض تفاصيل ${titleText}`);
 
   const info = document.createElement("div");
   info.className = "product-info";
@@ -73,7 +76,16 @@ function createProductCard(product) {
   price.className = "product-price";
   price.append(formatPrices(product.price));
 
-  info.append(title, description, price);
+  const detailsHint = document.createElement("span");
+  detailsHint.className = "product-details-hint";
+  detailsHint.setAttribute("aria-hidden", "true");
+  detailsHint.textContent = "التفاصيل";
+
+  const footer = document.createElement("div");
+  footer.className = "product-footer";
+  footer.append(price, detailsHint);
+
+  info.append(title, description, footer);
 
   const image = document.createElement("img");
   image.className = "product-image";
@@ -94,9 +106,12 @@ function createProductCard(product) {
   }, { once: true });
 
   button.addEventListener("click", () => {
-    enlargedImage.src = product.imageLarge || product.image;
-    enlargedImage.alt = titleText;
-    imageDialog.showModal();
+    productDialogImage.src = product.imageLarge || product.image;
+    productDialogImage.alt = titleText;
+    productDialogTitle.textContent = titleText;
+    productDialogDescription.textContent = descriptionText;
+    productDialogPrice.replaceChildren(formatPrices(product.price));
+    productDialog.showModal();
   });
 
   button.append(info, image);
@@ -248,9 +263,17 @@ document.querySelectorAll("dialog").forEach((dialog) => {
   });
 });
 
-imageDialog.addEventListener("close", () => {
-  enlargedImage.removeAttribute("src");
-  enlargedImage.alt = "";
+productDialogImage.addEventListener("error", () => {
+  productDialogImage.classList.add("is-broken");
+});
+
+productDialog.addEventListener("close", () => {
+  productDialogImage.removeAttribute("src");
+  productDialogImage.alt = "";
+  productDialogImage.classList.remove("is-broken");
+  productDialogTitle.textContent = "";
+  productDialogDescription.textContent = "";
+  productDialogPrice.replaceChildren();
 });
 
 loadMenu();

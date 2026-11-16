@@ -74,6 +74,30 @@ def main() -> None:
         if marker in app:
             fail(f"layout-sensitive JavaScript read remains: {marker}")
 
+    product_detail_markers = {
+        "HTML": (
+            'id="product-dialog"',
+            'id="product-dialog-title"',
+            'id="product-dialog-description"',
+            'id="product-dialog-price"',
+        ),
+        "JavaScript": (
+            "عرض تفاصيل",
+            "productDialogTitle.textContent = titleText",
+            "productDialogDescription.textContent = descriptionText",
+            "productDialogPrice.replaceChildren(formatPrices(product.price))",
+        ),
+        "CSS": (
+            ".product-dialog-content p",
+            ".product-dialog-price",
+        ),
+    }
+    product_detail_sources = {"HTML": html, "JavaScript": app, "CSS": styles}
+    for source_name, markers in product_detail_markers.items():
+        for marker in markers:
+            if marker not in product_detail_sources[source_name]:
+                fail(f"product details are incomplete in {source_name}: {marker}")
+
     external_urls = re.findall(r'https://([^/"\s]+)', combined_runtime)
     unknown_hosts = sorted(set(external_urls) - ALLOWED_EXTERNAL_HOSTS)
     if unknown_hosts:
